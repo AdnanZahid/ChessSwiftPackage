@@ -1,0 +1,185 @@
+{
+  "": {
+    "swift-dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/master.swiftdeps"
+  },
+  "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/Sources/Chess/SharedResources/Controllers/Controller.swift": {
+    "dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Controllers/Controller.d",
+    "object": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Controllers/Controller.swift.o",
+    "swiftmodule": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Controllers/Controller~partial.swiftmodule",
+    "swift-dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Controllers/Controller.swiftdeps"
+  },
+  "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/Sources/Chess/SharedResources/Models/AIPlayer.swift": {
+    "dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/AIPlayer.d",
+    "object": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/AIPlayer.swift.o",
+    "swiftmodule": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/AIPlayer~partial.swiftmodule",
+    "swift-dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/AIPlayer.swiftdeps"
+  },
+  "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/Sources/Chess/SharedResources/Models/Board.swift": {
+    "dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/Board.d",
+    "object": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/Board.swift.o",
+    "swiftmodule": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/Board~partial.swiftmodule",
+    "swift-dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/Board.swiftdeps"
+  },
+  "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/Sources/Chess/SharedResources/Models/EvaluationValueHandler.swift": {
+    "dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/EvaluationValueHandler.d",
+    "object": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/EvaluationValueHandler.swift.o",
+    "swiftmodule": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/EvaluationValueHandler~partial.swiftmodule",
+    "swift-dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/EvaluationValueHandler.swiftdeps"
+  },
+  "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/Sources/Chess/SharedResources/Models/GameLogic.swift": {
+    "dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/GameLogic.d",
+    "object": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/GameLogic.swift.o",
+    "swiftmodule": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/GameLogic~partial.swiftmodule",
+    "swift-dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/GameLogic.swiftdeps"
+  },
+  "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/Sources/Chess/SharedResources/Models/MoveStrategies/LimitedMoveStrategy.swift": {
+    "dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/MoveStrategies/LimitedMoveStrategy.d",
+    "object": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/MoveStrategies/LimitedMoveStrategy.swift.o",
+    "swiftmodule": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/MoveStrategies/LimitedMoveStrategy~partial.swiftmodule",
+    "swift-dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/MoveStrategies/LimitedMoveStrategy.swiftdeps"
+  },
+  "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/Sources/Chess/SharedResources/Models/MoveStrategies/MoveStrategy.swift": {
+    "dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/MoveStrategies/MoveStrategy.d",
+    "object": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/MoveStrategies/MoveStrategy.swift.o",
+    "swiftmodule": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/MoveStrategies/MoveStrategy~partial.swiftmodule",
+    "swift-dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/MoveStrategies/MoveStrategy.swiftdeps"
+  },
+  "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/Sources/Chess/SharedResources/Models/MoveStrategies/UnlimitedMoveStrategy.swift": {
+    "dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/MoveStrategies/UnlimitedMoveStrategy.d",
+    "object": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/MoveStrategies/UnlimitedMoveStrategy.swift.o",
+    "swiftmodule": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/MoveStrategies/UnlimitedMoveStrategy~partial.swiftmodule",
+    "swift-dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/MoveStrategies/UnlimitedMoveStrategy.swiftdeps"
+  },
+  "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/Sources/Chess/SharedResources/Models/Pieces/Bishop.swift": {
+    "dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/Pieces/Bishop.d",
+    "object": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/Pieces/Bishop.swift.o",
+    "swiftmodule": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/Pieces/Bishop~partial.swiftmodule",
+    "swift-dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/Pieces/Bishop.swiftdeps"
+  },
+  "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/Sources/Chess/SharedResources/Models/Pieces/EmptyPiece.swift": {
+    "dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/Pieces/EmptyPiece.d",
+    "object": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/Pieces/EmptyPiece.swift.o",
+    "swiftmodule": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/Pieces/EmptyPiece~partial.swiftmodule",
+    "swift-dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/Pieces/EmptyPiece.swiftdeps"
+  },
+  "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/Sources/Chess/SharedResources/Models/Pieces/King.swift": {
+    "dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/Pieces/King.d",
+    "object": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/Pieces/King.swift.o",
+    "swiftmodule": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/Pieces/King~partial.swiftmodule",
+    "swift-dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/Pieces/King.swiftdeps"
+  },
+  "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/Sources/Chess/SharedResources/Models/Pieces/Knight.swift": {
+    "dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/Pieces/Knight.d",
+    "object": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/Pieces/Knight.swift.o",
+    "swiftmodule": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/Pieces/Knight~partial.swiftmodule",
+    "swift-dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/Pieces/Knight.swiftdeps"
+  },
+  "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/Sources/Chess/SharedResources/Models/Pieces/Pawn.swift": {
+    "dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/Pieces/Pawn.d",
+    "object": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/Pieces/Pawn.swift.o",
+    "swiftmodule": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/Pieces/Pawn~partial.swiftmodule",
+    "swift-dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/Pieces/Pawn.swiftdeps"
+  },
+  "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/Sources/Chess/SharedResources/Models/Pieces/Piece.swift": {
+    "dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/Pieces/Piece.d",
+    "object": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/Pieces/Piece.swift.o",
+    "swiftmodule": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/Pieces/Piece~partial.swiftmodule",
+    "swift-dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/Pieces/Piece.swiftdeps"
+  },
+  "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/Sources/Chess/SharedResources/Models/Pieces/Queen.swift": {
+    "dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/Pieces/Queen.d",
+    "object": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/Pieces/Queen.swift.o",
+    "swiftmodule": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/Pieces/Queen~partial.swiftmodule",
+    "swift-dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/Pieces/Queen.swiftdeps"
+  },
+  "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/Sources/Chess/SharedResources/Models/Pieces/Rook.swift": {
+    "dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/Pieces/Rook.d",
+    "object": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/Pieces/Rook.swift.o",
+    "swiftmodule": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/Pieces/Rook~partial.swiftmodule",
+    "swift-dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/Pieces/Rook.swiftdeps"
+  },
+  "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/Sources/Chess/SharedResources/Models/Player.swift": {
+    "dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/Player.d",
+    "object": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/Player.swift.o",
+    "swiftmodule": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/Player~partial.swiftmodule",
+    "swift-dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/Player.swiftdeps"
+  },
+  "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/Sources/Chess/SharedResources/Models/Square.swift": {
+    "dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/Square.d",
+    "object": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/Square.swift.o",
+    "swiftmodule": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/Square~partial.swiftmodule",
+    "swift-dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Models/Square.swiftdeps"
+  },
+  "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/Sources/Chess/SharedResources/Others/ArrayExtension.swift": {
+    "dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Others/ArrayExtension.d",
+    "object": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Others/ArrayExtension.swift.o",
+    "swiftmodule": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Others/ArrayExtension~partial.swiftmodule",
+    "swift-dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Others/ArrayExtension.swiftdeps"
+  },
+  "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/Sources/Chess/SharedResources/Others/Constants.swift": {
+    "dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Others/Constants.d",
+    "object": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Others/Constants.swift.o",
+    "swiftmodule": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Others/Constants~partial.swiftmodule",
+    "swift-dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Others/Constants.swiftdeps"
+  },
+  "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/Sources/Chess/SharedResources/Others/ErrorHandler.swift": {
+    "dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Others/ErrorHandler.d",
+    "object": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Others/ErrorHandler.swift.o",
+    "swiftmodule": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Others/ErrorHandler~partial.swiftmodule",
+    "swift-dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Others/ErrorHandler.swiftdeps"
+  },
+  "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/Sources/Chess/SharedResources/Others/OperatorOverloadingUtility.swift": {
+    "dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Others/OperatorOverloadingUtility.d",
+    "object": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Others/OperatorOverloadingUtility.swift.o",
+    "swiftmodule": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Others/OperatorOverloadingUtility~partial.swiftmodule",
+    "swift-dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Others/OperatorOverloadingUtility.swiftdeps"
+  },
+  "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/Sources/Chess/SharedResources/Others/PieceFactory.swift": {
+    "dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Others/PieceFactory.d",
+    "object": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Others/PieceFactory.swift.o",
+    "swiftmodule": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Others/PieceFactory~partial.swiftmodule",
+    "swift-dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Others/PieceFactory.swiftdeps"
+  },
+  "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/Sources/Chess/SharedResources/Others/Stack.swift": {
+    "dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Others/Stack.d",
+    "object": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Others/Stack.swift.o",
+    "swiftmodule": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Others/Stack~partial.swiftmodule",
+    "swift-dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Others/Stack.swiftdeps"
+  },
+  "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/Sources/Chess/SharedResources/Others/StringExtension.swift": {
+    "dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Others/StringExtension.d",
+    "object": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Others/StringExtension.swift.o",
+    "swiftmodule": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Others/StringExtension~partial.swiftmodule",
+    "swift-dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Others/StringExtension.swiftdeps"
+  },
+  "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/Sources/Chess/SharedResources/Others/Structures.swift": {
+    "dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Others/Structures.d",
+    "object": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Others/Structures.swift.o",
+    "swiftmodule": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Others/Structures~partial.swiftmodule",
+    "swift-dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Others/Structures.swiftdeps"
+  },
+  "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/Sources/Chess/SharedResources/Others/Utility.swift": {
+    "dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Others/Utility.d",
+    "object": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Others/Utility.swift.o",
+    "swiftmodule": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Others/Utility~partial.swiftmodule",
+    "swift-dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Others/Utility.swiftdeps"
+  },
+  "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/Sources/Chess/SharedResources/Views/InputOutputHandlers.swift": {
+    "dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Views/InputOutputHandlers.d",
+    "object": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Views/InputOutputHandlers.swift.o",
+    "swiftmodule": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Views/InputOutputHandlers~partial.swiftmodule",
+    "swift-dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/SharedResources/Views/InputOutputHandlers.swiftdeps"
+  },
+  "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/Sources/Chess/Views/CLIView.swift": {
+    "dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/Views/CLIView.d",
+    "object": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/Views/CLIView.swift.o",
+    "swiftmodule": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/Views/CLIView~partial.swiftmodule",
+    "swift-dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/Views/CLIView.swiftdeps"
+  },
+  "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/Sources/Chess/main.swift": {
+    "dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/main.d",
+    "object": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/main.swift.o",
+    "swiftmodule": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/adnanzahid/Documents/Projects/Chess/SwiftPackage/.build/x86_64-apple-macosx/debug/Chess.build/main.swiftdeps"
+  }
+}

@@ -1,0 +1,96 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Player"
+provides-nominal:
+- "5Chess6PlayerC"
+provides-member:
+- ["5Chess6PlayerC", ""]
+provides-dynamic-lookup:
+- "color"
+- "generateMove"
+- "isAI"
+- "movePiece"
+- "opponent"
+- "piecesList"
+- "setBoardEvaluationValue"
+depends-top-level:
+- !private "*"
+- !private "+"
+- "AssignmentPrecedence"
+- !private "Board"
+- "Bool"
+- "BooleanLiteralType"
+- "Color"
+- !private "EvaluationValueHandler"
+- "Move"
+- "Piece"
+- "PieceDelegate"
+- "Player"
+- !private "StringLiteralType"
+- !private "preconditionFailure"
+depends-member:
+- !private ["5Chess5BoardC", "evaluationValue"]
+- !private ["5Chess5BoardC", "movePiece"]
+- !private ["5Chess5BoardC", "setupPieceBoard"]
+- !private ["5Chess5BoardC", "sharedInstance"]
+- !private ["5Chess5ColorO", "deinit"]
+- !private ["5Chess5ColorO", "rawValue"]
+- !private ["SQ", "rawValue"]
+- !private ["5Chess22EvaluationValueHandlerC", "getEvaluationValue"]
+- !private ["SH", "rawValue"]
+- !private ["5Chess13PieceDelegateP", "Board"]
+- !private ["5Chess13PieceDelegateP", "EvaluationValueHandler"]
+- ["5Chess13PieceDelegateP", ""]
+- !private ["5Chess13PieceDelegateP", "color"]
+- !private ["5Chess13PieceDelegateP", "opponent"]
+- !private ["5Chess13PieceDelegateP", "piecesList"]
+- !private ["5Chess13PieceDelegateP", "preconditionFailure"]
+- !private ["5Chess13PieceDelegateP", "setBoardEvaluationValue"]
+- !private ["5Chess6PlayerC", "Board"]
+- ["5Chess6PlayerC", "Bool"]
+- ["5Chess6PlayerC", "Color"]
+- !private ["5Chess6PlayerC", "EvaluationValueHandler"]
+- ["5Chess6PlayerC", "Move"]
+- ["5Chess6PlayerC", "Piece"]
+- ["5Chess6PlayerC", "Player"]
+- ["5Chess6PlayerC", "color"]
+- ["5Chess6PlayerC", "deinit"]
+- ["5Chess6PlayerC", "generateMove"]
+- ["5Chess6PlayerC", "init"]
+- ["5Chess6PlayerC", "isAI"]
+- ["5Chess6PlayerC", "movePiece"]
+- ["5Chess6PlayerC", "opponent"]
+- ["5Chess6PlayerC", "piecesList"]
+- !private ["5Chess6PlayerC", "preconditionFailure"]
+- ["5Chess6PlayerC", "setBoardEvaluationValue"]
+- !private ["SY", "rawValue"]
+depends-nominal:
+- !private "5Chess5BoardC"
+- !private "5Chess5ColorO"
+- !private "SQ"
+- !private "5Chess22EvaluationValueHandlerC"
+- !private "SH"
+- "5Chess13PieceDelegateP"
+- "5Chess6PlayerC"
+- !private "SY"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f0e619b474ee25465077db8556da8f8e"

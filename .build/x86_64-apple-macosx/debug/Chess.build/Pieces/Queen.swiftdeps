@@ -1,0 +1,157 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Queen"
+provides-nominal:
+- "5Chess5QueenC"
+provides-member:
+- ["5Chess5QueenC", ""]
+provides-dynamic-lookup:
+- "move"
+depends-top-level:
+- !private "&&"
+- "AssignmentPrecedence"
+- !private "Bishop"
+- !private "Board"
+- "Bool"
+- "Color"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- !private "Move"
+- "Piece"
+- "PieceDelegate"
+- "Queen"
+- !private "Rook"
+- "Square"
+- !private "UnlimitedMoveStrategy"
+- !private "abs"
+- !private "kQueenSymbol"
+- !private "kQueenValue"
+- !private "||"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["SK", "append"]
+- !private ["5Chess6BishopC", "move"]
+- !private ["5Chess5BoardC", "checkForClearPath"]
+- !private ["5Chess5BoardC", "sharedInstance"]
+- !private ["s7CVarArgP", "append"]
+- !private ["Sl", "append"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["Se", "append"]
+- !private ["SE", "append"]
+- !private ["SQ", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["SH", "append"]
+- !private ["5Chess4MoveV", "init"]
+- !private ["5Chess12MoveStrategyC", "init"]
+- !private ["SM", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["5Chess5PieceC", "Bishop"]
+- !private ["5Chess5PieceC", "Board"]
+- ["5Chess5PieceC", "Bool"]
+- ["5Chess5PieceC", "Color"]
+- !private ["5Chess5PieceC", "Move"]
+- ["5Chess5PieceC", "PieceDelegate"]
+- !private ["5Chess5PieceC", "Rook"]
+- ["5Chess5PieceC", "Square"]
+- !private ["5Chess5PieceC", "UnlimitedMoveStrategy"]
+- ["5Chess5PieceC", ""]
+- !private ["5Chess5PieceC", "abs"]
+- !private ["5Chess5PieceC", "directionsList"]
+- ["5Chess5PieceC", "init"]
+- !private ["5Chess5PieceC", "kQueenSymbol"]
+- !private ["5Chess5PieceC", "kQueenValue"]
+- ["5Chess5PieceC", "move"]
+- !private ["5Chess5PieceC", "moveStrategy"]
+- !private ["5Chess5PieceC", "position"]
+- !private ["5Chess5PieceC", "symbol"]
+- !private ["5Chess5PieceC", "value"]
+- !private ["5Chess5QueenC", "Bishop"]
+- !private ["5Chess5QueenC", "Board"]
+- ["5Chess5QueenC", "Bool"]
+- ["5Chess5QueenC", "Color"]
+- !private ["5Chess5QueenC", "Move"]
+- ["5Chess5QueenC", "PieceDelegate"]
+- !private ["5Chess5QueenC", "Rook"]
+- ["5Chess5QueenC", "Square"]
+- !private ["5Chess5QueenC", "UnlimitedMoveStrategy"]
+- !private ["5Chess5QueenC", "abs"]
+- ["5Chess5QueenC", "deinit"]
+- !private ["5Chess5QueenC", "directionsList"]
+- ["5Chess5QueenC", "init"]
+- !private ["5Chess5QueenC", "kQueenSymbol"]
+- !private ["5Chess5QueenC", "kQueenValue"]
+- ["5Chess5QueenC", "move"]
+- !private ["5Chess5QueenC", "moveStrategy"]
+- !private ["5Chess5QueenC", "position"]
+- !private ["5Chess5QueenC", "symbol"]
+- !private ["5Chess5QueenC", "value"]
+- !private ["Sk", "append"]
+- !private ["Sm", "append"]
+- !private ["5Chess4RookC", "move"]
+- !private ["ST", "append"]
+- !private ["5Chess21UnlimitedMoveStrategyC", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+depends-nominal:
+- !private "Sa"
+- !private "SK"
+- !private "5Chess6BishopC"
+- !private "5Chess5BoardC"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "SH"
+- !private "5Chess4MoveV"
+- !private "5Chess12MoveStrategyC"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "5Chess5PieceC"
+- "5Chess5QueenC"
+- !private "Sk"
+- !private "Sm"
+- !private "5Chess4RookC"
+- !private "ST"
+- !private "5Chess21UnlimitedMoveStrategyC"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "f14136a3ccabcb0f8e11966b9066f4f4"

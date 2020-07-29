@@ -1,0 +1,20 @@
+{
+  "allExecutables" : [
+    "Chess"
+  ],
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "rootExecutables" : [
+    "Chess"
+  ],
+  "swiftTargetMap" : {
+    "C.Chess-debug.module" : "Chess"
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

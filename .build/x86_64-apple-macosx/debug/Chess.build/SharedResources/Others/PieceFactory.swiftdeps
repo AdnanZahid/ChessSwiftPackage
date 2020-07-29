@@ -1,0 +1,111 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PieceFactory"
+provides-nominal:
+- "5Chess12PieceFactoryC"
+provides-member:
+- ["5Chess12PieceFactoryC", ""]
+provides-dynamic-lookup:
+- "getPiece"
+depends-top-level:
+- !private "-"
+- !private "Bishop"
+- !private "BooleanLiteralType"
+- !private "Color"
+- !private "EmptyPiece"
+- "Int"
+- !private "King"
+- !private "Knight"
+- !private "Pawn"
+- "Piece"
+- "PieceDelegate"
+- "PieceFactory"
+- !private "Queen"
+- !private "Rook"
+- "Square"
+- !private "kBishopValue"
+- !private "kKingValue"
+- !private "kKnightValue"
+- !private "kNilValue"
+- !private "kPawnValue"
+- !private "kQueenValue"
+- !private "kRookValue"
+- !private "~="
+depends-member:
+- !private ["5Chess6BishopC", "init"]
+- !private ["5Chess5ColorO", "black"]
+- !private ["5Chess5ColorO", "deinit"]
+- !private ["5Chess5ColorO", "white"]
+- !private ["5Chess10EmptyPieceC", "sharedInstance"]
+- !private ["SQ", "black"]
+- !private ["SQ", "white"]
+- !private ["SH", "black"]
+- !private ["SH", "white"]
+- !private ["5Chess4KingC", "init"]
+- !private ["5Chess6KnightC", "init"]
+- !private ["5Chess4PawnC", "init"]
+- !private ["5Chess5PieceC", "init"]
+- !private ["5Chess5PieceC", "sharedInstance"]
+- !private ["5Chess12PieceFactoryC", "Bishop"]
+- !private ["5Chess12PieceFactoryC", "Color"]
+- !private ["5Chess12PieceFactoryC", "EmptyPiece"]
+- ["5Chess12PieceFactoryC", "Int"]
+- !private ["5Chess12PieceFactoryC", "King"]
+- !private ["5Chess12PieceFactoryC", "Knight"]
+- !private ["5Chess12PieceFactoryC", "Pawn"]
+- ["5Chess12PieceFactoryC", "Piece"]
+- ["5Chess12PieceFactoryC", "PieceDelegate"]
+- !private ["5Chess12PieceFactoryC", "Queen"]
+- !private ["5Chess12PieceFactoryC", "Rook"]
+- ["5Chess12PieceFactoryC", "Square"]
+- ["5Chess12PieceFactoryC", "deinit"]
+- ["5Chess12PieceFactoryC", "getPiece"]
+- ["5Chess12PieceFactoryC", "init"]
+- !private ["5Chess12PieceFactoryC", "kBishopValue"]
+- !private ["5Chess12PieceFactoryC", "kKingValue"]
+- !private ["5Chess12PieceFactoryC", "kKnightValue"]
+- !private ["5Chess12PieceFactoryC", "kNilValue"]
+- !private ["5Chess12PieceFactoryC", "kPawnValue"]
+- !private ["5Chess12PieceFactoryC", "kQueenValue"]
+- !private ["5Chess12PieceFactoryC", "kRookValue"]
+- !private ["5Chess5QueenC", "init"]
+- !private ["SY", "black"]
+- !private ["SY", "white"]
+- !private ["5Chess4RookC", "init"]
+depends-nominal:
+- !private "5Chess6BishopC"
+- !private "5Chess5ColorO"
+- !private "5Chess10EmptyPieceC"
+- !private "SQ"
+- !private "SH"
+- !private "5Chess4KingC"
+- !private "5Chess6KnightC"
+- !private "5Chess4PawnC"
+- !private "5Chess5PieceC"
+- "5Chess12PieceFactoryC"
+- !private "5Chess5QueenC"
+- !private "SY"
+- !private "5Chess4RookC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "fa23ba0bedea8ca5e02b968beeb035c3"
