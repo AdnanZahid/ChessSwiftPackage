@@ -1,0 +1,196 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Controller"
+provides-nominal:
+- "5Chess10ControllerC"
+provides-member:
+- ["5Chess10ControllerC", ""]
+provides-dynamic-lookup:
+- "changeTurn"
+- "didTakeInput"
+- "gameState"
+- "getMoves"
+- "inputHandler"
+- "outputHandler"
+- "runEngine"
+- "selectQueueAndRun"
+depends-top-level:
+- !private "!"
+- !private "=="
+- "AssignmentPrecedence"
+- !private "BoardHandler"
+- !private "BoardState"
+- !private "BooleanLiteralType"
+- !private "Constants"
+- "Controller"
+- "DispatchQueue"
+- !private "GameHandler"
+- "GameState"
+- "InputHandler"
+- "InputHandlerDelegate"
+- !private "MoveGenerationHandler"
+- "MoveState"
+- "OutputHandler"
+- !private "PlayerState"
+- "SquareState"
+- "TernaryPrecedence"
+depends-member:
+- !private ["5Chess12BoardHandlerC", "setup"]
+- !private ["5Chess10BoardStateC", "init"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "global"]
+- !private ["s7CVarArgP", "main"]
+- !private ["5Chess9ConstantsO0A18BoardConfigurationO", "standard"]
+- !private ["5Chess5ColorO", "black"]
+- !private ["5Chess5ColorO", "deinit"]
+- !private ["5Chess5ColorO", "white"]
+- !private ["5Chess9ConstantsO", "ChessBoardConfiguration"]
+- !private ["5Chess10ControllerC", "BoardHandler"]
+- !private ["5Chess10ControllerC", "BoardState"]
+- !private ["5Chess10ControllerC", "Constants"]
+- ["5Chess10ControllerC", "DispatchQueue"]
+- !private ["5Chess10ControllerC", "GameHandler"]
+- ["5Chess10ControllerC", "GameState"]
+- ["5Chess10ControllerC", "InputHandler"]
+- !private ["5Chess10ControllerC", "MoveGenerationHandler"]
+- ["5Chess10ControllerC", "MoveState"]
+- ["5Chess10ControllerC", "OutputHandler"]
+- !private ["5Chess10ControllerC", "PlayerState"]
+- ["5Chess10ControllerC", "SquareState"]
+- !private ["5Chess10ControllerC", "changeTurn"]
+- ["5Chess10ControllerC", "deinit"]
+- ["5Chess10ControllerC", "didTakeInput"]
+- ["5Chess10ControllerC", "gameState"]
+- ["5Chess10ControllerC", "getMoves"]
+- ["5Chess10ControllerC", "init"]
+- ["5Chess10ControllerC", "inputHandler"]
+- ["5Chess10ControllerC", "outputHandler"]
+- ["5Chess10ControllerC", "runEngine"]
+- ["5Chess10ControllerC", "selectQueueAndRun"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "global"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "global"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "global"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "global"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["SQ", "async"]
+- !private ["SQ", "black"]
+- !private ["SQ", "default"]
+- !private ["SQ", "global"]
+- !private ["SQ", "main"]
+- !private ["SQ", "white"]
+- !private ["5Chess11GameHandlerC", "move"]
+- !private ["5Chess9GameStateV", "blackPlayer"]
+- !private ["5Chess9GameStateV", "boardState"]
+- !private ["5Chess9GameStateV", "currentPlayer"]
+- !private ["5Chess9GameStateV", "init"]
+- !private ["5Chess9GameStateV", "whitePlayer"]
+- !private ["SH", "async"]
+- !private ["SH", "black"]
+- !private ["SH", "default"]
+- !private ["SH", "global"]
+- !private ["SH", "main"]
+- !private ["SH", "white"]
+- !private ["5Chess12InputHandlerP", "cancelMove"]
+- !private ["5Chess12InputHandlerP", "input"]
+- !private ["5Chess12InputHandlerP", "inputHandlerDelegate"]
+- !private ["5Chess12InputHandlerP", "isGUIViewAvailable"]
+- !private ["5Chess12InputHandlerP", "output"]
+- !private ["5Chess12InputHandlerP", "setup"]
+- !private ["5Chess20InputHandlerDelegateP", "BoardHandler"]
+- !private ["5Chess20InputHandlerDelegateP", "BoardState"]
+- !private ["5Chess20InputHandlerDelegateP", "Constants"]
+- !private ["5Chess20InputHandlerDelegateP", "GameHandler"]
+- !private ["5Chess20InputHandlerDelegateP", "GameState"]
+- !private ["5Chess20InputHandlerDelegateP", "MoveGenerationHandler"]
+- !private ["5Chess20InputHandlerDelegateP", "PlayerState"]
+- ["5Chess20InputHandlerDelegateP", ""]
+- !private ["5Chess20InputHandlerDelegateP", "changeTurn"]
+- ["5Chess20InputHandlerDelegateP", "didTakeInput"]
+- !private ["5Chess20InputHandlerDelegateP", "gameState"]
+- ["5Chess20InputHandlerDelegateP", "getMoves"]
+- !private ["5Chess20InputHandlerDelegateP", "inputHandler"]
+- !private ["5Chess20InputHandlerDelegateP", "outputHandler"]
+- !private ["5Chess20InputHandlerDelegateP", "runEngine"]
+- !private ["5Chess20InputHandlerDelegateP", "selectQueueAndRun"]
+- !private ["5Chess21MoveGenerationHandlerC", "getMoves"]
+- !private ["5Chess11MoveHandlerP", "setup"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "global"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "global"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "global"]
+- !private ["So9OS_objectC", "main"]
+- !private ["5Chess13OutputHandlerP", "cancelMove"]
+- !private ["5Chess13OutputHandlerP", "isGUIViewAvailable"]
+- !private ["5Chess13OutputHandlerP", "output"]
+- !private ["5Chess13OutputHandlerP", "setup"]
+- !private ["5Chess11PlayerStateV", "color"]
+- !private ["5Chess11PlayerStateV", "init"]
+- !private ["8Dispatch0A3QoSV0B6SClassO", "default"]
+- !private ["7Combine9SchedulerP", "async"]
+- !private ["7Combine9SchedulerP", "global"]
+- !private ["7Combine9SchedulerP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "global"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "async"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "global"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
+depends-nominal:
+- !private "5Chess12BoardHandlerC"
+- !private "5Chess10BoardStateC"
+- !private "s7CVarArgP"
+- !private "5Chess9ConstantsO0A18BoardConfigurationO"
+- !private "5Chess5ColorO"
+- !private "5Chess9ConstantsO"
+- "5Chess10ControllerC"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s23CustomStringConvertibleP"
+- !private "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- !private "SQ"
+- !private "5Chess11GameHandlerC"
+- !private "5Chess9GameStateV"
+- !private "SH"
+- !private "5Chess12InputHandlerP"
+- "5Chess20InputHandlerDelegateP"
+- !private "5Chess21MoveGenerationHandlerC"
+- !private "5Chess11MoveHandlerP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So9OS_objectC"
+- !private "5Chess13OutputHandlerP"
+- !private "5Chess11PlayerStateV"
+- !private "8Dispatch0A3QoSV0B6SClassO"
+- !private "7Combine9SchedulerP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "03d7a83323ec44f8fbe06c71c5adf14a"

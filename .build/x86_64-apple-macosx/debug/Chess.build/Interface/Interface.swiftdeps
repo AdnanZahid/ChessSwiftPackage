@@ -1,0 +1,83 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "InputHandlerDelegate"
+- "InputHandler"
+- "OutputHandler"
+- "MoveHandler"
+provides-nominal:
+- "5Chess20InputHandlerDelegateP"
+- "5Chess12InputHandlerP"
+- "5Chess13OutputHandlerP"
+- "5Chess11MoveHandlerP"
+provides-member:
+- ["5Chess20InputHandlerDelegateP", ""]
+- ["5Chess12InputHandlerP", ""]
+- ["5Chess13OutputHandlerP", ""]
+- ["5Chess11MoveHandlerP", ""]
+- ["5Chess12InputHandlerP", "input"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnyObject"
+- "BoardState"
+- "Bool"
+- "InputHandler"
+- "InputHandlerDelegate"
+- "MoveHandler"
+- "MoveState"
+- "OutputHandler"
+- "SquareState"
+depends-member:
+- ["5Chess12InputHandlerP", "BoardState"]
+- ["5Chess12InputHandlerP", "Bool"]
+- ["5Chess12InputHandlerP", "InputHandlerDelegate"]
+- ["5Chess12InputHandlerP", "MoveState"]
+- ["5Chess12InputHandlerP", ""]
+- ["5Chess12InputHandlerP", "cancelMove"]
+- ["5Chess12InputHandlerP", "input"]
+- ["5Chess12InputHandlerP", "inputHandlerDelegate"]
+- ["5Chess12InputHandlerP", "isGUIViewAvailable"]
+- ["5Chess12InputHandlerP", "output"]
+- ["5Chess12InputHandlerP", "setup"]
+- ["5Chess20InputHandlerDelegateP", "MoveState"]
+- ["5Chess20InputHandlerDelegateP", "SquareState"]
+- ["5Chess20InputHandlerDelegateP", "didTakeInput"]
+- ["5Chess20InputHandlerDelegateP", "getMoves"]
+- ["5Chess11MoveHandlerP", "BoardState"]
+- ["5Chess11MoveHandlerP", "Bool"]
+- ["5Chess11MoveHandlerP", "MoveState"]
+- ["5Chess11MoveHandlerP", "move"]
+- ["5Chess13OutputHandlerP", "BoardState"]
+- ["5Chess13OutputHandlerP", "Bool"]
+- ["5Chess13OutputHandlerP", "MoveState"]
+- ["5Chess13OutputHandlerP", "cancelMove"]
+- ["5Chess13OutputHandlerP", "isGUIViewAvailable"]
+- ["5Chess13OutputHandlerP", "output"]
+- ["5Chess13OutputHandlerP", "setup"]
+depends-nominal:
+- "5Chess12InputHandlerP"
+- "5Chess20InputHandlerDelegateP"
+- "5Chess11MoveHandlerP"
+- "5Chess13OutputHandlerP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "190fbda2dde8af61251b797ad1965d8e"

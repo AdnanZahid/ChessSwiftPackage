@@ -1,0 +1,132 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RankIndex"
+- "FileIndex"
+- "-"
+- "+"
+- "-"
+- "-"
+- "+"
+- "-"
+provides-nominal:
+- "5Chess9RankIndexO"
+- "5Chess9FileIndexO"
+provides-member:
+- ["5Chess9RankIndexO", ""]
+- ["5Chess9FileIndexO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "+"
+- "-"
+- "=="
+- "FileIndex"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "RankIndex"
+- !private "~="
+depends-member:
+- ["SQ", "=="]
+- !private ["SQ", "FileIndex"]
+- !private ["SQ", "RankIndex"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "rawValue"]
+- ["5Chess9FileIndexO", "+"]
+- ["5Chess9FileIndexO", "-"]
+- ["5Chess9FileIndexO", "=="]
+- ["5Chess9FileIndexO", "FileIndex"]
+- ["5Chess9FileIndexO", "Int"]
+- ["5Chess9FileIndexO", "RawValue"]
+- ["5Chess9FileIndexO", "_A"]
+- ["5Chess9FileIndexO", "_B"]
+- ["5Chess9FileIndexO", "_C"]
+- ["5Chess9FileIndexO", "_D"]
+- ["5Chess9FileIndexO", "_Default_RawValue"]
+- ["5Chess9FileIndexO", "_E"]
+- ["5Chess9FileIndexO", "_F"]
+- ["5Chess9FileIndexO", "_G"]
+- ["5Chess9FileIndexO", "_H"]
+- ["5Chess9FileIndexO", "_rawHashValue"]
+- ["5Chess9FileIndexO", "deinit"]
+- ["5Chess9FileIndexO", "hash"]
+- ["5Chess9FileIndexO", "hashValue"]
+- ["5Chess9FileIndexO", "init"]
+- ["5Chess9FileIndexO", "rawValue"]
+- ["SH", "=="]
+- !private ["SH", "FileIndex"]
+- !private ["SH", "RankIndex"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- ["SH", "_rawHashValue"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "rawValue"]
+- ["5Chess9RankIndexO", "+"]
+- ["5Chess9RankIndexO", "-"]
+- ["5Chess9RankIndexO", "=="]
+- ["5Chess9RankIndexO", "Int"]
+- ["5Chess9RankIndexO", "RankIndex"]
+- ["5Chess9RankIndexO", "RawValue"]
+- ["5Chess9RankIndexO", "_1"]
+- ["5Chess9RankIndexO", "_2"]
+- ["5Chess9RankIndexO", "_3"]
+- ["5Chess9RankIndexO", "_4"]
+- ["5Chess9RankIndexO", "_5"]
+- ["5Chess9RankIndexO", "_6"]
+- ["5Chess9RankIndexO", "_7"]
+- ["5Chess9RankIndexO", "_8"]
+- ["5Chess9RankIndexO", "_Default_RawValue"]
+- ["5Chess9RankIndexO", "_rawHashValue"]
+- ["5Chess9RankIndexO", "deinit"]
+- ["5Chess9RankIndexO", "hash"]
+- ["5Chess9RankIndexO", "hashValue"]
+- ["5Chess9RankIndexO", "init"]
+- ["5Chess9RankIndexO", "rawValue"]
+- ["SY", "=="]
+- !private ["SY", "FileIndex"]
+- !private ["SY", "RankIndex"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- ["SY", "_rawHashValue"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "rawValue"]
+depends-nominal:
+- "SQ"
+- "5Chess9FileIndexO"
+- "SH"
+- "5Chess9RankIndexO"
+- "SY"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "5d3781671d4d70a59799c6af10d43793"

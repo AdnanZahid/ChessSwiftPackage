@@ -1,0 +1,312 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MovementStrategy"
+- "MovementType"
+- "MovementDirection"
+- "EligibleForPromotion"
+- "Color"
+- "PieceTuple"
+- "Piece"
+provides-nominal:
+- "5Chess16MovementStrategyO"
+- "5Chess12MovementTypeO"
+- "5Chess17MovementDirectionO"
+- "5Chess20EligibleForPromotionO"
+- "5Chess5ColorO"
+- "5Chess5PieceO"
+provides-member:
+- ["5Chess16MovementStrategyO", ""]
+- ["5Chess12MovementTypeO", ""]
+- ["5Chess17MovementDirectionO", ""]
+- ["5Chess20EligibleForPromotionO", ""]
+- ["5Chess5ColorO", ""]
+- ["5Chess5PieceO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AdvancementState"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Color"
+- !private "Constants"
+- "EligibleForPromotion"
+- "FileIndex"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "MovementDirection"
+- "MovementStrategy"
+- "MovementType"
+- "Piece"
+- "PieceTuple"
+- "RankIndex"
+- "RawRepresentable"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+depends-member:
+- ["5Chess16AdvancementStateV", "deinit"]
+- !private ["5Chess16AdvancementStateV", "init"]
+- ["5Chess5ColorO", "=="]
+- ["5Chess5ColorO", "__derived_enum_equals"]
+- ["5Chess5ColorO", "_rawHashValue"]
+- ["5Chess5ColorO", "black"]
+- ["5Chess5ColorO", "deinit"]
+- ["5Chess5ColorO", "hash"]
+- ["5Chess5ColorO", "hashValue"]
+- ["5Chess5ColorO", "white"]
+- !private ["5Chess9ConstantsO", "Values"]
+- !private ["s28CustomDebugStringConvertibleP", "_2"]
+- !private ["s28CustomDebugStringConvertibleP", "_7"]
+- !private ["s28CustomDebugStringConvertibleP", "_A"]
+- !private ["s28CustomDebugStringConvertibleP", "_H"]
+- !private ["s17CustomReflectableP", "_2"]
+- !private ["s17CustomReflectableP", "_7"]
+- !private ["s17CustomReflectableP", "_A"]
+- !private ["s17CustomReflectableP", "_H"]
+- !private ["Se", "_2"]
+- !private ["Se", "_7"]
+- !private ["Se", "_A"]
+- !private ["Se", "_H"]
+- ["5Chess20EligibleForPromotionO", "Piece"]
+- ["5Chess20EligibleForPromotionO", "RankIndex"]
+- ["5Chess20EligibleForPromotionO", "no"]
+- ["5Chess20EligibleForPromotionO", "yes"]
+- !private ["SE", "_2"]
+- !private ["SE", "_7"]
+- !private ["SE", "_A"]
+- !private ["SE", "_H"]
+- ["SQ", "=="]
+- !private ["SQ", "AdvancementState"]
+- !private ["SQ", "Constants"]
+- !private ["SQ", "PieceConstants"]
+- !private ["SQ", "PieceTuple"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- !private ["SQ", "_1"]
+- !private ["SQ", "_2"]
+- !private ["SQ", "_7"]
+- !private ["SQ", "_8"]
+- !private ["SQ", "_A"]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_H"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "any"]
+- !private ["SQ", "black"]
+- ["SQ", "blackBishop"]
+- ["SQ", "blackKing"]
+- ["SQ", "blackKnight"]
+- ["SQ", "blackPawn"]
+- ["SQ", "blackQueen"]
+- ["SQ", "blackRook"]
+- ["SQ", "diagonal"]
+- !private ["SQ", "forward"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "lShaped"]
+- ["SQ", "rawValue"]
+- ["SQ", "straight"]
+- !private ["SQ", "white"]
+- ["SQ", "whiteBishop"]
+- ["SQ", "whiteKing"]
+- ["SQ", "whiteKnight"]
+- ["SQ", "whitePawn"]
+- ["SQ", "whiteQueen"]
+- ["SQ", "whiteRook"]
+- !private ["s23ExpressibleByNilLiteralP", "_2"]
+- !private ["s23ExpressibleByNilLiteralP", "_7"]
+- !private ["s23ExpressibleByNilLiteralP", "_A"]
+- !private ["s23ExpressibleByNilLiteralP", "_H"]
+- !private ["5Chess9FileIndexO", "_A"]
+- !private ["5Chess9FileIndexO", "_H"]
+- ["SH", "=="]
+- !private ["SH", "AdvancementState"]
+- !private ["SH", "Constants"]
+- !private ["SH", "PieceConstants"]
+- !private ["SH", "PieceTuple"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- !private ["SH", "_1"]
+- !private ["SH", "_2"]
+- !private ["SH", "_7"]
+- !private ["SH", "_8"]
+- !private ["SH", "_A"]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_H"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "any"]
+- !private ["SH", "black"]
+- ["SH", "blackBishop"]
+- ["SH", "blackKing"]
+- ["SH", "blackKnight"]
+- ["SH", "blackPawn"]
+- ["SH", "blackQueen"]
+- ["SH", "blackRook"]
+- ["SH", "diagonal"]
+- !private ["SH", "forward"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "lShaped"]
+- ["SH", "rawValue"]
+- ["SH", "straight"]
+- !private ["SH", "white"]
+- ["SH", "whiteBishop"]
+- ["SH", "whiteKing"]
+- ["SH", "whiteKnight"]
+- ["SH", "whitePawn"]
+- ["SH", "whiteQueen"]
+- ["SH", "whiteRook"]
+- !private ["s6HasherV", "combine"]
+- ["5Chess17MovementDirectionO", "=="]
+- ["5Chess17MovementDirectionO", "__derived_enum_equals"]
+- ["5Chess17MovementDirectionO", "_rawHashValue"]
+- ["5Chess17MovementDirectionO", "any"]
+- ["5Chess17MovementDirectionO", "deinit"]
+- ["5Chess17MovementDirectionO", "forward"]
+- ["5Chess17MovementDirectionO", "hash"]
+- ["5Chess17MovementDirectionO", "hashValue"]
+- ["5Chess16MovementStrategyO", "=="]
+- ["5Chess16MovementStrategyO", "AdvancementState"]
+- ["5Chess16MovementStrategyO", "RawValue"]
+- ["5Chess16MovementStrategyO", "_Default_RawValue"]
+- ["5Chess16MovementStrategyO", "_rawHashValue"]
+- ["5Chess16MovementStrategyO", "deinit"]
+- ["5Chess16MovementStrategyO", "diagonal"]
+- ["5Chess16MovementStrategyO", "hash"]
+- ["5Chess16MovementStrategyO", "hashValue"]
+- ["5Chess16MovementStrategyO", "init"]
+- ["5Chess16MovementStrategyO", "lShaped"]
+- ["5Chess16MovementStrategyO", "rawValue"]
+- ["5Chess16MovementStrategyO", "straight"]
+- ["5Chess12MovementTypeO", "FileIndex"]
+- ["5Chess12MovementTypeO", "Int"]
+- ["5Chess12MovementTypeO", "RankIndex"]
+- ["5Chess12MovementTypeO", "hop"]
+- ["5Chess12MovementTypeO", "slide"]
+- ["5Chess12MovementTypeO", "slideFrom"]
+- ["5Chess12MovementTypeO", "step"]
+- !private ["Sq", "_2"]
+- !private ["Sq", "_7"]
+- !private ["Sq", "_A"]
+- !private ["Sq", "_H"]
+- ["5Chess5PieceO", "=="]
+- !private ["5Chess5PieceO", "Constants"]
+- !private ["5Chess5PieceO", "PieceConstants"]
+- ["5Chess5PieceO", "PieceTuple"]
+- ["5Chess5PieceO", "RawValue"]
+- ["5Chess5PieceO", "_Default_RawValue"]
+- ["5Chess5PieceO", "__derived_enum_equals"]
+- ["5Chess5PieceO", "_rawHashValue"]
+- ["5Chess5PieceO", "blackBishop"]
+- ["5Chess5PieceO", "blackKing"]
+- ["5Chess5PieceO", "blackKnight"]
+- ["5Chess5PieceO", "blackPawn"]
+- ["5Chess5PieceO", "blackQueen"]
+- ["5Chess5PieceO", "blackRook"]
+- ["5Chess5PieceO", "deinit"]
+- ["5Chess5PieceO", "hash"]
+- ["5Chess5PieceO", "hashValue"]
+- ["5Chess5PieceO", "init"]
+- ["5Chess5PieceO", "rawValue"]
+- ["5Chess5PieceO", "whiteBishop"]
+- ["5Chess5PieceO", "whiteKing"]
+- ["5Chess5PieceO", "whiteKnight"]
+- ["5Chess5PieceO", "whitePawn"]
+- ["5Chess5PieceO", "whiteQueen"]
+- ["5Chess5PieceO", "whiteRook"]
+- !private ["5Chess9RankIndexO", "_1"]
+- !private ["5Chess9RankIndexO", "_2"]
+- !private ["5Chess9RankIndexO", "_7"]
+- !private ["5Chess9RankIndexO", "_8"]
+- ["SY", "=="]
+- !private ["SY", "AdvancementState"]
+- !private ["SY", "Constants"]
+- !private ["SY", "PieceConstants"]
+- !private ["SY", "PieceTuple"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- !private ["SY", "_1"]
+- !private ["SY", "_2"]
+- !private ["SY", "_7"]
+- !private ["SY", "_8"]
+- !private ["SY", "_A"]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_H"]
+- ["SY", "_rawHashValue"]
+- ["SY", "blackBishop"]
+- ["SY", "blackKing"]
+- ["SY", "blackKnight"]
+- ["SY", "blackPawn"]
+- ["SY", "blackQueen"]
+- ["SY", "blackRook"]
+- ["SY", "diagonal"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "lShaped"]
+- ["SY", "rawValue"]
+- ["SY", "straight"]
+- ["SY", "whiteBishop"]
+- ["SY", "whiteKing"]
+- ["SY", "whiteKnight"]
+- ["SY", "whitePawn"]
+- ["SY", "whiteQueen"]
+- ["SY", "whiteRook"]
+- !private ["5Chess9ConstantsO6ValuesO", "bishop"]
+- !private ["5Chess9ConstantsO6ValuesO", "king"]
+- !private ["5Chess9ConstantsO6ValuesO", "knight"]
+- !private ["5Chess9ConstantsO6ValuesO", "pawn"]
+- !private ["5Chess9ConstantsO6ValuesO", "queen"]
+- !private ["5Chess9ConstantsO6ValuesO", "rook"]
+- !private ["s21_ObjectiveCBridgeableP", "_2"]
+- !private ["s21_ObjectiveCBridgeableP", "_7"]
+- !private ["s21_ObjectiveCBridgeableP", "_A"]
+- !private ["s21_ObjectiveCBridgeableP", "_H"]
+depends-nominal:
+- "5Chess16AdvancementStateV"
+- "5Chess5ColorO"
+- !private "5Chess9ConstantsO"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "Se"
+- "5Chess20EligibleForPromotionO"
+- !private "SE"
+- "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "5Chess9FileIndexO"
+- "SH"
+- !private "s6HasherV"
+- "5Chess17MovementDirectionO"
+- "5Chess16MovementStrategyO"
+- "5Chess12MovementTypeO"
+- !private "Sq"
+- "5Chess5PieceO"
+- !private "5Chess9RankIndexO"
+- "SY"
+- !private "5Chess9ConstantsO6ValuesO"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "9244f1aab73ea43b8b5ed91f46cca868"

@@ -1,0 +1,205 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MovementTypeHandler"
+provides-nominal:
+- "5Chess19MovementTypeHandlerC"
+provides-member:
+- ["5Chess19MovementTypeHandlerC", ""]
+- ["5Chess19MovementTypeHandlerC", "isValid"]
+provides-dynamic-lookup:
+- "getAdvancement"
+- "getSingleAdvancement"
+- "isMove"
+- "isOneStepAdvanced"
+- "isPathClear"
+- "isSquareEmpty"
+- "isValid"
+depends-top-level:
+- !private "!="
+- !private "&&"
+- !private "+"
+- !private "-"
+- !private "/"
+- !private "=="
+- "AdvancementState"
+- "AssignmentPrecedence"
+- "BoardState"
+- "Bool"
+- "BooleanLiteralType"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "MoveState"
+- "MovementType"
+- "MovementTypeHandler"
+- "SquareState"
+- "TernaryPrecedence"
+- !private "abs"
+- !private "||"
+depends-member:
+- !private ["5Chess16AdvancementStateV", "fileAdvancement"]
+- !private ["5Chess16AdvancementStateV", "init"]
+- !private ["5Chess16AdvancementStateV", "rankAdvancement"]
+- !private ["Sa", "first"]
+- !private ["Sa", "subscript"]
+- !private ["s10ArraySliceV", "subscript"]
+- !private ["SK", "first"]
+- !private ["SK", "subscript"]
+- !private ["5Chess10BoardStateC", "squares"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "first"]
+- !private ["Sl", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "callAsFunction"]
+- !private ["s28CustomDebugStringConvertibleP", "fileIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "fromSquare"]
+- !private ["s28CustomDebugStringConvertibleP", "piece"]
+- !private ["s28CustomDebugStringConvertibleP", "rankIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "toSquare"]
+- !private ["s17CustomReflectableP", "callAsFunction"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["Se", "callAsFunction"]
+- !private ["Se", "first"]
+- !private ["Se", "subscript"]
+- !private ["SE", "callAsFunction"]
+- !private ["SE", "first"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "callAsFunction"]
+- !private ["SQ", "fileAdvancement"]
+- !private ["SQ", "fileIndex"]
+- !private ["SQ", "first"]
+- !private ["SQ", "fromSquare"]
+- !private ["SQ", "init"]
+- !private ["SQ", "piece"]
+- !private ["SQ", "rankAdvancement"]
+- !private ["SQ", "rankIndex"]
+- !private ["SQ", "rawValue"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "toSquare"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s23ExpressibleByNilLiteralP", "callAsFunction"]
+- !private ["5Chess9FileIndexO", "deinit"]
+- !private ["5Chess9FileIndexO", "rawValue"]
+- !private ["SH", "callAsFunction"]
+- !private ["SH", "first"]
+- !private ["SH", "rawValue"]
+- !private ["SH", "subscript"]
+- !private ["5Chess9MoveStateV", "fromSquare"]
+- !private ["5Chess9MoveStateV", "toSquare"]
+- !private ["5Chess12MovementTypeO", "hop"]
+- !private ["5Chess12MovementTypeO", "slide"]
+- !private ["5Chess12MovementTypeO", "slideFrom"]
+- !private ["5Chess12MovementTypeO", "step"]
+- ["5Chess19MovementTypeHandlerC", "AdvancementState"]
+- ["5Chess19MovementTypeHandlerC", "BoardState"]
+- ["5Chess19MovementTypeHandlerC", "Bool"]
+- ["5Chess19MovementTypeHandlerC", "MoveState"]
+- ["5Chess19MovementTypeHandlerC", "MovementType"]
+- ["5Chess19MovementTypeHandlerC", "SquareState"]
+- !private ["5Chess19MovementTypeHandlerC", "abs"]
+- ["5Chess19MovementTypeHandlerC", "deinit"]
+- !private ["5Chess19MovementTypeHandlerC", "getAdvancement"]
+- !private ["5Chess19MovementTypeHandlerC", "getSingleAdvancement"]
+- ["5Chess19MovementTypeHandlerC", "init"]
+- !private ["5Chess19MovementTypeHandlerC", "isMove"]
+- !private ["5Chess19MovementTypeHandlerC", "isOneStepAdvanced"]
+- !private ["5Chess19MovementTypeHandlerC", "isPathClear"]
+- !private ["5Chess19MovementTypeHandlerC", "isSquareEmpty"]
+- ["5Chess19MovementTypeHandlerC", "isValid"]
+- !private ["SM", "first"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["Sq", "callAsFunction"]
+- !private ["5Chess5PieceO", "deinit"]
+- !private ["Sk", "first"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "first"]
+- !private ["Sm", "subscript"]
+- !private ["5Chess9RankIndexO", "deinit"]
+- !private ["5Chess9RankIndexO", "rawValue"]
+- !private ["SY", "rawValue"]
+- !private ["ST", "first"]
+- !private ["ST", "subscript"]
+- !private ["5Chess11SquareStateV", "deinit"]
+- !private ["5Chess11SquareStateV", "fileIndex"]
+- !private ["5Chess11SquareStateV", "piece"]
+- !private ["5Chess11SquareStateV", "rankIndex"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "callAsFunction"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "5Chess16AdvancementStateV"
+- !private "Sa"
+- !private "s10ArraySliceV"
+- !private "SK"
+- !private "5Chess10BoardStateC"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "5Chess9FileIndexO"
+- !private "SH"
+- !private "5Chess9MoveStateV"
+- !private "5Chess12MovementTypeO"
+- "5Chess19MovementTypeHandlerC"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sq"
+- !private "5Chess5PieceO"
+- !private "Sk"
+- !private "Sm"
+- !private "5Chess9RankIndexO"
+- !private "SY"
+- !private "ST"
+- !private "5Chess11SquareStateV"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "b4e77e22daaa629bdf4eebdbd41123ad"

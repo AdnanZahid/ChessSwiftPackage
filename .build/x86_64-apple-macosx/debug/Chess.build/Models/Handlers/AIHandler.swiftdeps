@@ -1,0 +1,185 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AIHandler"
+provides-nominal:
+- "5Chess9AIHandlerC"
+provides-member:
+- ["5Chess9AIHandlerC", ""]
+provides-dynamic-lookup:
+- "alphaBeta"
+- "firstAlphaBeta"
+- "generateMove"
+- "input"
+- "inputHandlerDelegate"
+depends-top-level:
+- !private "-"
+- !private "/"
+- !private "=="
+- "AIHandler"
+- !private "Board"
+- "BoardState"
+- !private "BooleanLiteralType"
+- !private "Color"
+- !private "EvaluationMove"
+- !private "FloatLiteralType"
+- "InputHandler"
+- "InputHandlerDelegate"
+- "Int"
+- !private "IntegerLiteralType"
+- "MoveState"
+- "Player"
+- "PlayerState"
+- !private "Square"
+depends-member:
+- !private ["5Chess9AIHandlerC", "Board"]
+- ["5Chess9AIHandlerC", "BoardState"]
+- !private ["5Chess9AIHandlerC", "Color"]
+- !private ["5Chess9AIHandlerC", "EvaluationMove"]
+- ["5Chess9AIHandlerC", "InputHandlerDelegate"]
+- ["5Chess9AIHandlerC", "Int"]
+- ["5Chess9AIHandlerC", "MoveState"]
+- ["5Chess9AIHandlerC", "Player"]
+- ["5Chess9AIHandlerC", "PlayerState"]
+- !private ["5Chess9AIHandlerC", "Square"]
+- ["5Chess9AIHandlerC", "deinit"]
+- !private ["5Chess9AIHandlerC", "firstAlphaBeta"]
+- !private ["5Chess9AIHandlerC", "generateMove"]
+- ["5Chess9AIHandlerC", "init"]
+- ["5Chess9AIHandlerC", "input"]
+- ["5Chess9AIHandlerC", "inputHandlerDelegate"]
+- !private ["s18AdditiveArithmeticP", "min"]
+- !private ["Sa", "filter"]
+- !private ["SK", "filter"]
+- !private ["Sz", "min"]
+- !private ["5Chess10BoardStateC", "squares"]
+- !private ["s7CVarArgP", "filter"]
+- !private ["s7CVarArgP", "min"]
+- !private ["Sl", "filter"]
+- !private ["5Chess5ColorO", "white"]
+- !private ["SL", "min"]
+- !private ["10Foundation15ContiguousBytesP", "filter"]
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- !private ["s17CustomReflectableP", "filter"]
+- !private ["s17CustomReflectableP", "min"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- !private ["s23CustomStringConvertibleP", "min"]
+- !private ["10Foundation12DataProtocolP", "filter"]
+- !private ["Se", "filter"]
+- !private ["Se", "min"]
+- !private ["SE", "filter"]
+- !private ["SE", "min"]
+- !private ["SQ", "captured"]
+- !private ["SQ", "filter"]
+- !private ["SQ", "min"]
+- !private ["SQ", "moveStrategy"]
+- !private ["SQ", "white"]
+- !private ["s25ExpressibleByArrayLiteralP", "filter"]
+- !private ["s27ExpressibleByIntegerLiteralP", "min"]
+- !private ["s17FixedWidthIntegerP", "min"]
+- !private ["SH", "captured"]
+- !private ["SH", "filter"]
+- !private ["SH", "min"]
+- !private ["SH", "moveStrategy"]
+- !private ["SH", "white"]
+- !private ["5Chess12InputHandlerP", "Board"]
+- !private ["5Chess12InputHandlerP", "Color"]
+- !private ["5Chess12InputHandlerP", "EvaluationMove"]
+- !private ["5Chess12InputHandlerP", "Int"]
+- ["5Chess12InputHandlerP", "Player"]
+- !private ["5Chess12InputHandlerP", "Square"]
+- ["5Chess12InputHandlerP", ""]
+- ["5Chess12InputHandlerP", "input"]
+- ["5Chess12InputHandlerP", "inputHandlerDelegate"]
+- !private ["Si", "min"]
+- !private ["s25LosslessStringConvertibleP", "min"]
+- !private ["s10MirrorPathP", "min"]
+- !private ["SM", "filter"]
+- !private ["10Foundation19MutableDataProtocolP", "filter"]
+- !private ["Sj", "min"]
+- !private ["5Chess5PieceO", "captured"]
+- !private ["5Chess5PieceO", "moveStrategy"]
+- !private ["5Chess11PlayerStateV", "piecesList"]
+- !private ["Sk", "filter"]
+- !private ["Sm", "filter"]
+- !private ["SY", "captured"]
+- !private ["SY", "moveStrategy"]
+- !private ["s10SIMDScalarP", "min"]
+- !private ["ST", "filter"]
+- !private ["SZ", "min"]
+- !private ["s13SignedNumericP", "min"]
+- !private ["Sx", "min"]
+- !private ["s14_ArrayProtocolP", "filter"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "min"]
+- !private ["s24_DestructorSafeContainerP", "filter"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "min"]
+- !private ["s19_HasContiguousBytesP", "filter"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "filter"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "min"]
+- !private ["s21_ObjectiveCBridgeableP", "filter"]
+- !private ["s21_ObjectiveCBridgeableP", "min"]
+depends-nominal:
+- "5Chess9AIHandlerC"
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "SK"
+- !private "Sz"
+- !private "5Chess10BoardStateC"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "5Chess5ColorO"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "SH"
+- "5Chess12InputHandlerP"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sj"
+- !private "5Chess5PieceO"
+- !private "5Chess11PlayerStateV"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "444f4af5cd15ef819a2cb0f8b4871bae"

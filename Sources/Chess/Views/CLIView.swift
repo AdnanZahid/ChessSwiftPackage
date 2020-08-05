@@ -1,98 +1,104 @@
 //
 //  CLIView.swift
-//  Chess
+//  ChessSwift
 //
-//  Created by Adnan Zahid on 8/22/16.
-//  Copyright © 2016 Chess. All rights reserved.
+//  Created by Adnan Zahid on 30/07/2020.
+//  Copyright © 2020 Adnan Zahid. All rights reserved.
 //
 
-class CLIView: InputHandler, OutputHandler {
+import Foundation
+
+class CLIView {
     
-    var isGUIViewAvailable: Bool = false
+    private enum Constants {
+        
+        static let asciiDifferenceForFile = 65
+        static let asciiDifferenceForRank = 49
+        static let newLine = "\n"
+        
+        enum RankString: Character {
+            case _1   = "1"
+            case _2   = "2"
+            case _3   = "3"
+            case _4   = "4"
+            case _5   = "5"
+            case _6   = "6"
+            case _7   = "7"
+            case _8   = "8"
+        }
+        
+        enum FileString: Character {
+            case _A   = "A"
+            case _B   = "B"
+            case _C   = "C"
+            case _D   = "D"
+            case _E   = "E"
+            case _F   = "F"
+            case _G   = "G"
+            case _H   = "H"
+        }
+    }
+    
+    var isGUIViewAvailable = false
     
     weak var inputHandlerDelegate: InputHandlerDelegate?
+}
+
+extension CLIView: InputHandler {
     
     func input() {
         
-        var input: String = readLine(strippingNewline: true)!
+        guard let string = readLine(strippingNewline: true)?.capitalized else { return }
+        let input = Array(string)
+        let fromFile = input[0]
+        let fromRank = input[1]
+        let toFile = input[2]
+        let toRank = input[3]
         
-        input = input.capitalized
-        
-        let fromFile: String = input[0]
-        let fromRank: String = input[1]
-        
-        let toFile: String = input[2]
-        let toRank: String = input[3]
-        
-        if fromFile >= "A"
-            && fromFile <= "H"
+        if fromFile >= Constants.FileString._A.rawValue && fromFile <= Constants.FileString._H.rawValue
+            && fromRank >= Constants.RankString._1.rawValue && fromRank <= Constants.RankString._8.rawValue
+            && toFile >= Constants.FileString._A.rawValue && toFile <= Constants.FileString._H.rawValue
+            && toRank >= Constants.RankString._1.rawValue && toRank <= Constants.RankString._8.rawValue {
             
-            && fromRank >= "1"
-            && fromRank <= "8"
-            
-            && toFile >= "A"
-            && toFile <= "H"
-            
-            && toRank >= "1"
-            && toRank <= "8" {
-            
-            let fromSquare: Square = Square(
+            guard let fromFileAsciiValue = fromFile.asciiValue, let fromRankAsciiValue = fromRank.asciiValue,
+                let toFileAsciiValue = toFile.asciiValue, let toRankAsciiValue = toRank.asciiValue,
                 
-                file: FileIndex(rawValue: Character(fromFile).asciiValue - kAsciiDifferenceForFile)!,
+                let fromFileIndex = FileIndex(rawValue: Int(fromFileAsciiValue) - Constants.asciiDifferenceForFile),
+                let fromRankIndex = RankIndex(rawValue: Int(fromRankAsciiValue) - Constants.asciiDifferenceForRank),
                 
-                rank: RankIndex(rawValue: Character(fromRank).asciiValue - kAsciiDifferenceForRank)!)
+                let toFileIndex = FileIndex(rawValue: Int(toFileAsciiValue) - Constants.asciiDifferenceForFile),
+                let toRankIndex = RankIndex(rawValue: Int(toRankAsciiValue) - Constants.asciiDifferenceForRank)
+                else { return }
             
-            let toSquare: Square = Square(
-                
-                file: FileIndex(rawValue: Character(toFile).asciiValue - kAsciiDifferenceForFile)!,
-                
-                rank: RankIndex(rawValue: Character(toRank).asciiValue - kAsciiDifferenceForRank)!)
+            let move = MoveState(fromSquare: SquareState(fileIndex: fromFileIndex, rankIndex: fromRankIndex),
+                                 toSquare: SquareState(fileIndex: toFileIndex, rankIndex: toRankIndex))
             
-            inputHandlerDelegate?.didTakeInput(Move(fromSquare: fromSquare, toSquare: toSquare))
+            inputHandlerDelegate?.didTakeInput(move)
         }
     }
+}
+
+extension CLIView: OutputHandler {
     
-    func setup() {
-        
-        for rank in (allPiecesRankEnumeration).reversed() {
-            for file in allPiecesFileEnumeration {
-                
-                if let _ = Board.sharedInstance.pieceArray[rank][file] {
-                    
-                    var symbol: String = Board.sharedInstance.pieceArray[rank][file]!.symbol
-                    
-                    if Board.sharedInstance.pieceArray[rank][file]!.color == Color.black {
-                        symbol = symbol.lowercased()
-                    }
-                    
-                    print(symbol, separator: "", terminator: " ")
-                    
+    func setup(boardState: BoardState) {
+        // Was reversed earlier in the Constants.swift file for viewing convenience
+        // Reversing a reverse will give us the accurate view
+        Array(RankIndex._1.rawValue...RankIndex._8.rawValue).reversed().forEach { rank in
+            Array(FileIndex._A.rawValue...FileIndex._H.rawValue).forEach { file in
+                if let piece = boardState.squares[rank][file]?.piece {
+                    print(piece.rawValue.symbol, separator: "", terminator: " ")
                 } else {
-                    
-                    print(kNilSymbol, separator: "", terminator: " ")
+                    print("x", separator: "", terminator: " ")
                 }
             }
-            
-            print(kNewLineSymbol, separator: "", terminator: "")
+            print(Constants.newLine)
         }
-        
-        print()
-        print("---------------")
-        print()
     }
     
-    /**
-     * PRINT THE BOARD - Simple as possible view for command line
-     */
-    func output(_ move: Move) {
-        
-        setup()
+    func output(move: MoveState, boardState: BoardState) {
+        setup(boardState: boardState)
     }
     
-    /**
-     * CANCEL MOVE on VIEW
-     */
     func cancelMove() {
-        
     }
 }

@@ -1,0 +1,137 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Constants"
+provides-nominal:
+- "5Chess9ConstantsO"
+- "5Chess9ConstantsO6ValuesO"
+- "5Chess9ConstantsO0A18BoardConfigurationO"
+provides-member:
+- ["5Chess9ConstantsO", ""]
+- ["5Chess9ConstantsO6ValuesO", ""]
+- ["5Chess9ConstantsO0A18BoardConfigurationO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "-"
+- "Constants"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+depends-member:
+- ["Sa", "reversed"]
+- ["SK", "reversed"]
+- ["s7CVarArgP", "reversed"]
+- ["5Chess9ConstantsO0A18BoardConfigurationO", "B"]
+- ["5Chess9ConstantsO0A18BoardConfigurationO", "ConfigurationType"]
+- ["5Chess9ConstantsO0A18BoardConfigurationO", "Int"]
+- ["5Chess9ConstantsO0A18BoardConfigurationO", "K"]
+- ["5Chess9ConstantsO0A18BoardConfigurationO", "N"]
+- ["5Chess9ConstantsO0A18BoardConfigurationO", "P"]
+- ["5Chess9ConstantsO0A18BoardConfigurationO", "Q"]
+- ["5Chess9ConstantsO0A18BoardConfigurationO", "R"]
+- ["5Chess9ConstantsO0A18BoardConfigurationO", "b"]
+- ["5Chess9ConstantsO0A18BoardConfigurationO", "empty"]
+- ["5Chess9ConstantsO0A18BoardConfigurationO", "k"]
+- ["5Chess9ConstantsO0A18BoardConfigurationO", "n"]
+- ["5Chess9ConstantsO0A18BoardConfigurationO", "p"]
+- ["5Chess9ConstantsO0A18BoardConfigurationO", "q"]
+- ["5Chess9ConstantsO0A18BoardConfigurationO", "r"]
+- ["5Chess9ConstantsO0A18BoardConfigurationO", "standard"]
+- ["5Chess9ConstantsO0A18BoardConfigurationO", "x"]
+- ["Sl", "reversed"]
+- ["5Chess9ConstantsO", "B"]
+- ["5Chess9ConstantsO", "ChessBoardConfiguration"]
+- ["5Chess9ConstantsO", "Constants"]
+- ["5Chess9ConstantsO", "Int"]
+- ["5Chess9ConstantsO", "K"]
+- ["5Chess9ConstantsO", "N"]
+- ["5Chess9ConstantsO", "P"]
+- ["5Chess9ConstantsO", "Q"]
+- ["5Chess9ConstantsO", "R"]
+- ["5Chess9ConstantsO", "Values"]
+- ["5Chess9ConstantsO", "b"]
+- ["5Chess9ConstantsO", "files"]
+- ["5Chess9ConstantsO", "k"]
+- ["5Chess9ConstantsO", "n"]
+- ["5Chess9ConstantsO", "p"]
+- ["5Chess9ConstantsO", "q"]
+- ["5Chess9ConstantsO", "r"]
+- ["5Chess9ConstantsO", "ranks"]
+- ["5Chess9ConstantsO", "x"]
+- ["10Foundation15ContiguousBytesP", "reversed"]
+- ["s28CustomDebugStringConvertibleP", "reversed"]
+- ["s17CustomReflectableP", "reversed"]
+- ["s23CustomStringConvertibleP", "reversed"]
+- ["10Foundation12DataProtocolP", "reversed"]
+- ["Se", "reversed"]
+- ["SE", "reversed"]
+- ["SQ", "reversed"]
+- ["s25ExpressibleByArrayLiteralP", "reversed"]
+- ["SH", "reversed"]
+- ["SM", "reversed"]
+- ["10Foundation19MutableDataProtocolP", "reversed"]
+- ["Sk", "reversed"]
+- ["Sm", "reversed"]
+- ["ST", "reversed"]
+- ["5Chess9ConstantsO6ValuesO", "bishop"]
+- ["5Chess9ConstantsO6ValuesO", "empty"]
+- ["5Chess9ConstantsO6ValuesO", "king"]
+- ["5Chess9ConstantsO6ValuesO", "knight"]
+- ["5Chess9ConstantsO6ValuesO", "pawn"]
+- ["5Chess9ConstantsO6ValuesO", "queen"]
+- ["5Chess9ConstantsO6ValuesO", "rook"]
+- ["s14_ArrayProtocolP", "reversed"]
+- ["s24_DestructorSafeContainerP", "reversed"]
+- ["s19_HasContiguousBytesP", "reversed"]
+- ["s35_HasCustomAnyHashableRepresentationP", "reversed"]
+- ["s21_ObjectiveCBridgeableP", "reversed"]
+depends-nominal:
+- "Sa"
+- "SK"
+- "s7CVarArgP"
+- "5Chess9ConstantsO0A18BoardConfigurationO"
+- "Sl"
+- "5Chess9ConstantsO"
+- "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation12DataProtocolP"
+- "Se"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- "SH"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
+- "Sk"
+- "Sm"
+- "ST"
+- "5Chess9ConstantsO6ValuesO"
+- "s14_ArrayProtocolP"
+- "s24_DestructorSafeContainerP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "687e6a8238456fc87cd2807c77f83601"

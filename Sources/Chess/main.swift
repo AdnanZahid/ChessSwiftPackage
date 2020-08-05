@@ -1,9 +1,11 @@
 //
 //  main.swift
-//  Chess
+//  ChessSwift
 //
-//  Created by Adnan Zahid on 8/8/16.
-//  Copyright © 2016 Chess. All rights reserved.
+//  Created by Adnan Zahid on 30/07/2020.
+//  Copyright © 2020 Adnan Zahid. All rights reserved.
 //
 
-let controller: Controller = Controller(view: CLIView())
+import Foundation
+
+let controller = Controller(view: CLIView())

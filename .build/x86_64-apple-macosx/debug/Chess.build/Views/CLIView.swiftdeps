@@ -15,309 +15,354 @@ provides-dynamic-lookup:
 depends-top-level:
 - !private "&&"
 - !private "-"
+- !private "..."
 - !private "<="
-- !private "=="
+- "=="
 - !private ">="
-- "AssignmentPrecedence"
-- !private "Board"
-- "Bool"
+- !private "Array"
+- "BoardState"
 - "BooleanLiteralType"
 - "CLIView"
-- !private "Character"
-- !private "Color"
+- "Character"
+- "ExtendedGraphemeClusterType"
 - !private "FileIndex"
-- !private "FloatLiteralType"
+- "FloatLiteralType"
 - "InputHandler"
 - "InputHandlerDelegate"
-- !private "IntegerLiteralType"
-- "Move"
+- !private "Int"
+- "IntegerLiteralType"
+- "MoveState"
 - "OutputHandler"
 - !private "RankIndex"
-- !private "Square"
-- !private "String"
-- !private "StringLiteralType"
-- !private "UnicodeScalarType"
-- !private "allPiecesFileEnumeration"
-- !private "allPiecesRankEnumeration"
-- !private "kAsciiDifferenceForFile"
-- !private "kAsciiDifferenceForRank"
-- !private "kNewLineSymbol"
-- !private "kNilSymbol"
+- !private "SquareState"
+- "StringLiteralType"
+- "UnicodeScalarType"
 - !private "print"
 - !private "readLine"
+- !private "~="
 depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "forEach"]
+- !private ["Sa", "init"]
+- !private ["Sa", "reversed"]
 - !private ["Sa", "subscript"]
 - !private ["s10ArraySliceV", "subscript"]
 - !private ["SK", "capitalized"]
-- !private ["SK", "lowercased"]
+- !private ["SK", "forEach"]
+- !private ["SK", "init"]
 - !private ["SK", "reversed"]
 - !private ["SK", "subscript"]
-- !private ["5Chess5BoardC", "pieceArray"]
-- !private ["5Chess5BoardC", "sharedInstance"]
-- !private ["5Chess7CLIViewC", "Board"]
-- ["5Chess7CLIViewC", "Bool"]
-- !private ["5Chess7CLIViewC", "Character"]
-- !private ["5Chess7CLIViewC", "Color"]
+- !private ["Sz", "init"]
+- !private ["5Chess10BoardStateC", "squares"]
+- !private ["5Chess7CLIViewC", "Array"]
+- ["5Chess7CLIViewC", "BoardState"]
+- ["5Chess7CLIViewC", "Character"]
+- !private ["5Chess7CLIViewC", "Constants"]
 - !private ["5Chess7CLIViewC", "FileIndex"]
 - ["5Chess7CLIViewC", "InputHandlerDelegate"]
-- ["5Chess7CLIViewC", "Move"]
+- !private ["5Chess7CLIViewC", "Int"]
+- ["5Chess7CLIViewC", "MoveState"]
 - !private ["5Chess7CLIViewC", "RankIndex"]
-- !private ["5Chess7CLIViewC", "Square"]
-- !private ["5Chess7CLIViewC", "String"]
-- !private ["5Chess7CLIViewC", "allPiecesFileEnumeration"]
-- !private ["5Chess7CLIViewC", "allPiecesRankEnumeration"]
+- !private ["5Chess7CLIViewC", "SquareState"]
 - ["5Chess7CLIViewC", "cancelMove"]
 - ["5Chess7CLIViewC", "deinit"]
 - ["5Chess7CLIViewC", "init"]
 - ["5Chess7CLIViewC", "input"]
 - ["5Chess7CLIViewC", "inputHandlerDelegate"]
 - ["5Chess7CLIViewC", "isGUIViewAvailable"]
-- !private ["5Chess7CLIViewC", "kAsciiDifferenceForFile"]
-- !private ["5Chess7CLIViewC", "kAsciiDifferenceForRank"]
-- !private ["5Chess7CLIViewC", "kNewLineSymbol"]
-- !private ["5Chess7CLIViewC", "kNilSymbol"]
 - ["5Chess7CLIViewC", "output"]
 - !private ["5Chess7CLIViewC", "print"]
 - !private ["5Chess7CLIViewC", "readLine"]
 - ["5Chess7CLIViewC", "setup"]
 - !private ["s7CVarArgP", "capitalized"]
-- !private ["s7CVarArgP", "lowercased"]
+- !private ["s7CVarArgP", "forEach"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "reversed"]
 - !private ["s7CVarArgP", "subscript"]
 - !private ["SJ", "asciiValue"]
-- !private ["SJ", "init"]
-- !private ["SN", "reversed"]
 - !private ["Sl", "capitalized"]
-- !private ["Sl", "lowercased"]
+- !private ["Sl", "forEach"]
+- !private ["Sl", "init"]
 - !private ["Sl", "reversed"]
 - !private ["Sl", "subscript"]
-- !private ["5Chess5ColorO", "black"]
-- !private ["5Chess5ColorO", "deinit"]
 - !private ["SL", "asciiValue"]
 - !private ["SL", "capitalized"]
 - !private ["SL", "init"]
-- !private ["SL", "lowercased"]
-- !private ["SL", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "forEach"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "reversed"]
 - !private ["10Foundation15ContiguousBytesP", "subscript"]
 - !private ["s28CustomDebugStringConvertibleP", "asciiValue"]
 - !private ["s28CustomDebugStringConvertibleP", "capitalized"]
+- !private ["s28CustomDebugStringConvertibleP", "forEach"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
-- !private ["s28CustomDebugStringConvertibleP", "lowercased"]
+- !private ["s28CustomDebugStringConvertibleP", "piece"]
 - !private ["s28CustomDebugStringConvertibleP", "reversed"]
 - !private ["s28CustomDebugStringConvertibleP", "subscript"]
 - !private ["s17CustomReflectableP", "asciiValue"]
 - !private ["s17CustomReflectableP", "capitalized"]
+- !private ["s17CustomReflectableP", "forEach"]
 - !private ["s17CustomReflectableP", "init"]
-- !private ["s17CustomReflectableP", "lowercased"]
 - !private ["s17CustomReflectableP", "reversed"]
 - !private ["s17CustomReflectableP", "subscript"]
 - !private ["s23CustomStringConvertibleP", "asciiValue"]
 - !private ["s23CustomStringConvertibleP", "capitalized"]
+- !private ["s23CustomStringConvertibleP", "forEach"]
 - !private ["s23CustomStringConvertibleP", "init"]
-- !private ["s23CustomStringConvertibleP", "lowercased"]
 - !private ["s23CustomStringConvertibleP", "reversed"]
 - !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "forEach"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "reversed"]
 - !private ["10Foundation12DataProtocolP", "subscript"]
 - !private ["Se", "capitalized"]
-- !private ["Se", "lowercased"]
+- !private ["Se", "forEach"]
+- !private ["Se", "init"]
 - !private ["Se", "reversed"]
 - !private ["Se", "subscript"]
 - !private ["SE", "capitalized"]
-- !private ["SE", "lowercased"]
+- !private ["SE", "forEach"]
+- !private ["SE", "init"]
 - !private ["SE", "reversed"]
 - !private ["SE", "subscript"]
+- ["SQ", "=="]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- !private ["SQ", "_1"]
+- !private ["SQ", "_8"]
+- !private ["SQ", "_A"]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_H"]
+- ["SQ", "_rawHashValue"]
 - !private ["SQ", "asciiValue"]
-- !private ["SQ", "black"]
 - !private ["SQ", "capitalized"]
-- !private ["SQ", "init"]
-- !private ["SQ", "lowercased"]
+- !private ["SQ", "forEach"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "piece"]
+- ["SQ", "rawValue"]
 - !private ["SQ", "reversed"]
 - !private ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "forEach"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "reversed"]
 - !private ["s25ExpressibleByArrayLiteralP", "subscript"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "asciiValue"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "capitalized"]
-- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
-- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "lowercased"]
-- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "subscript"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
 - !private ["s32ExpressibleByStringInterpolationP", "capitalized"]
-- !private ["s32ExpressibleByStringInterpolationP", "lowercased"]
-- !private ["s32ExpressibleByStringInterpolationP", "subscript"]
 - !private ["s26ExpressibleByStringLiteralP", "capitalized"]
-- !private ["s26ExpressibleByStringLiteralP", "lowercased"]
-- !private ["s26ExpressibleByStringLiteralP", "subscript"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "asciiValue"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "capitalized"]
-- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
-- !private ["s33ExpressibleByUnicodeScalarLiteralP", "lowercased"]
-- !private ["s33ExpressibleByUnicodeScalarLiteralP", "subscript"]
+- !private ["5Chess9FileIndexO", "_A"]
+- !private ["5Chess9FileIndexO", "_H"]
 - !private ["5Chess9FileIndexO", "deinit"]
 - !private ["5Chess9FileIndexO", "init"]
+- !private ["5Chess9FileIndexO", "rawValue"]
+- ["5Chess7CLIViewC9Constants33_C5F2A148BD41271244C1C48DD6880578LLO10FileStringO", "=="]
+- ["5Chess7CLIViewC9Constants33_C5F2A148BD41271244C1C48DD6880578LLO10FileStringO", "RawValue"]
+- ["5Chess7CLIViewC9Constants33_C5F2A148BD41271244C1C48DD6880578LLO10FileStringO", "_A"]
+- ["5Chess7CLIViewC9Constants33_C5F2A148BD41271244C1C48DD6880578LLO10FileStringO", "_B"]
+- ["5Chess7CLIViewC9Constants33_C5F2A148BD41271244C1C48DD6880578LLO10FileStringO", "_C"]
+- ["5Chess7CLIViewC9Constants33_C5F2A148BD41271244C1C48DD6880578LLO10FileStringO", "_D"]
+- ["5Chess7CLIViewC9Constants33_C5F2A148BD41271244C1C48DD6880578LLO10FileStringO", "_Default_RawValue"]
+- ["5Chess7CLIViewC9Constants33_C5F2A148BD41271244C1C48DD6880578LLO10FileStringO", "_E"]
+- ["5Chess7CLIViewC9Constants33_C5F2A148BD41271244C1C48DD6880578LLO10FileStringO", "_F"]
+- ["5Chess7CLIViewC9Constants33_C5F2A148BD41271244C1C48DD6880578LLO10FileStringO", "_G"]
+- ["5Chess7CLIViewC9Constants33_C5F2A148BD41271244C1C48DD6880578LLO10FileStringO", "_H"]
+- ["5Chess7CLIViewC9Constants33_C5F2A148BD41271244C1C48DD6880578LLO10FileStringO", "_rawHashValue"]
+- ["5Chess7CLIViewC9Constants33_C5F2A148BD41271244C1C48DD6880578LLO10FileStringO", "deinit"]
+- ["5Chess7CLIViewC9Constants33_C5F2A148BD41271244C1C48DD6880578LLO10FileStringO", "hash"]
+- ["5Chess7CLIViewC9Constants33_C5F2A148BD41271244C1C48DD6880578LLO10FileStringO", "hashValue"]
+- ["5Chess7CLIViewC9Constants33_C5F2A148BD41271244C1C48DD6880578LLO10FileStringO", "init"]
+- ["5Chess7CLIViewC9Constants33_C5F2A148BD41271244C1C48DD6880578LLO10FileStringO", "rawValue"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- !private ["SH", "_1"]
+- !private ["SH", "_8"]
+- !private ["SH", "_A"]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_H"]
+- ["SH", "_rawHashValue"]
 - !private ["SH", "asciiValue"]
-- !private ["SH", "black"]
 - !private ["SH", "capitalized"]
-- !private ["SH", "init"]
-- !private ["SH", "lowercased"]
+- !private ["SH", "forEach"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "rawValue"]
 - !private ["SH", "reversed"]
 - !private ["SH", "subscript"]
-- !private ["5Chess12InputHandlerP", "Board"]
-- !private ["5Chess12InputHandlerP", "Character"]
-- !private ["5Chess12InputHandlerP", "Color"]
+- !private ["5Chess12InputHandlerP", "Array"]
+- !private ["5Chess12InputHandlerP", "Constants"]
 - !private ["5Chess12InputHandlerP", "FileIndex"]
-- !private ["5Chess12InputHandlerP", "Move"]
+- !private ["5Chess12InputHandlerP", "Int"]
+- !private ["5Chess12InputHandlerP", "MoveState"]
 - !private ["5Chess12InputHandlerP", "RankIndex"]
-- !private ["5Chess12InputHandlerP", "Square"]
+- !private ["5Chess12InputHandlerP", "SquareState"]
 - ["5Chess12InputHandlerP", ""]
-- !private ["5Chess12InputHandlerP", "allPiecesFileEnumeration"]
-- !private ["5Chess12InputHandlerP", "allPiecesRankEnumeration"]
 - ["5Chess12InputHandlerP", "cancelMove"]
 - ["5Chess12InputHandlerP", "input"]
 - ["5Chess12InputHandlerP", "inputHandlerDelegate"]
 - ["5Chess12InputHandlerP", "isGUIViewAvailable"]
-- !private ["5Chess12InputHandlerP", "kAsciiDifferenceForFile"]
-- !private ["5Chess12InputHandlerP", "kAsciiDifferenceForRank"]
-- !private ["5Chess12InputHandlerP", "kNewLineSymbol"]
-- !private ["5Chess12InputHandlerP", "kNilSymbol"]
 - ["5Chess12InputHandlerP", "output"]
 - !private ["5Chess12InputHandlerP", "print"]
 - !private ["5Chess12InputHandlerP", "readLine"]
 - ["5Chess12InputHandlerP", "setup"]
 - !private ["5Chess20InputHandlerDelegateP", "didTakeInput"]
+- !private ["Si", "init"]
+- !private ["s20LazySequenceProtocolP", "forEach"]
 - !private ["s25LosslessStringConvertibleP", "asciiValue"]
 - !private ["s25LosslessStringConvertibleP", "capitalized"]
 - !private ["s25LosslessStringConvertibleP", "init"]
-- !private ["s25LosslessStringConvertibleP", "lowercased"]
-- !private ["s25LosslessStringConvertibleP", "subscript"]
 - !private ["s10MirrorPathP", "capitalized"]
-- !private ["s10MirrorPathP", "lowercased"]
-- !private ["s10MirrorPathP", "subscript"]
-- !private ["5Chess4MoveV", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["5Chess9MoveStateV", "init"]
+- !private ["SM", "forEach"]
+- !private ["SM", "init"]
+- !private ["SM", "reversed"]
 - !private ["SM", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "forEach"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "reversed"]
 - !private ["10Foundation19MutableDataProtocolP", "subscript"]
 - !private ["So8NSCodingP", "capitalized"]
-- !private ["So8NSCodingP", "lowercased"]
-- !private ["So8NSCodingP", "subscript"]
 - !private ["So9NSCopyingP", "capitalized"]
-- !private ["So9NSCopyingP", "lowercased"]
-- !private ["So9NSCopyingP", "subscript"]
 - !private ["So21NSItemProviderReadingP", "capitalized"]
-- !private ["So21NSItemProviderReadingP", "lowercased"]
-- !private ["So21NSItemProviderReadingP", "subscript"]
 - !private ["So21NSItemProviderWritingP", "capitalized"]
-- !private ["So21NSItemProviderWritingP", "lowercased"]
-- !private ["So21NSItemProviderWritingP", "subscript"]
 - !private ["So16NSMutableCopyingP", "capitalized"]
-- !private ["So16NSMutableCopyingP", "lowercased"]
-- !private ["So16NSMutableCopyingP", "subscript"]
 - !private ["So8NSObjectC", "capitalized"]
-- !private ["So8NSObjectC", "lowercased"]
-- !private ["So8NSObjectC", "subscript"]
 - !private ["So8NSObjectP", "capitalized"]
-- !private ["So8NSObjectP", "lowercased"]
-- !private ["So8NSObjectP", "subscript"]
 - !private ["So14NSSecureCodingP", "capitalized"]
-- !private ["So14NSSecureCodingP", "lowercased"]
-- !private ["So14NSSecureCodingP", "subscript"]
 - !private ["So8NSStringC", "capitalized"]
-- !private ["So8NSStringC", "lowercased"]
-- !private ["So8NSStringC", "subscript"]
-- !private ["5Chess13OutputHandlerP", "Board"]
-- !private ["5Chess13OutputHandlerP", "Character"]
-- !private ["5Chess13OutputHandlerP", "Color"]
+- !private ["Sj", "init"]
+- !private ["5Chess13OutputHandlerP", "Array"]
+- !private ["5Chess13OutputHandlerP", "Constants"]
 - !private ["5Chess13OutputHandlerP", "FileIndex"]
-- !private ["5Chess13OutputHandlerP", "Move"]
+- !private ["5Chess13OutputHandlerP", "Int"]
+- !private ["5Chess13OutputHandlerP", "MoveState"]
 - !private ["5Chess13OutputHandlerP", "RankIndex"]
-- !private ["5Chess13OutputHandlerP", "Square"]
+- !private ["5Chess13OutputHandlerP", "SquareState"]
 - ["5Chess13OutputHandlerP", ""]
-- !private ["5Chess13OutputHandlerP", "allPiecesFileEnumeration"]
-- !private ["5Chess13OutputHandlerP", "allPiecesRankEnumeration"]
 - ["5Chess13OutputHandlerP", "cancelMove"]
 - ["5Chess13OutputHandlerP", "input"]
 - ["5Chess13OutputHandlerP", "inputHandlerDelegate"]
 - ["5Chess13OutputHandlerP", "isGUIViewAvailable"]
-- !private ["5Chess13OutputHandlerP", "kAsciiDifferenceForFile"]
-- !private ["5Chess13OutputHandlerP", "kAsciiDifferenceForRank"]
-- !private ["5Chess13OutputHandlerP", "kNewLineSymbol"]
-- !private ["5Chess13OutputHandlerP", "kNilSymbol"]
 - ["5Chess13OutputHandlerP", "output"]
 - !private ["5Chess13OutputHandlerP", "print"]
 - !private ["5Chess13OutputHandlerP", "readLine"]
 - ["5Chess13OutputHandlerP", "setup"]
-- !private ["5Chess5PieceC", "color"]
-- !private ["5Chess5PieceC", "symbol"]
+- !private ["5Chess5PieceO", "deinit"]
+- !private ["5Chess5PieceO", "rawValue"]
+- !private ["Sk", "forEach"]
+- !private ["Sk", "init"]
 - !private ["Sk", "reversed"]
 - !private ["Sk", "subscript"]
-- !private ["SX", "reversed"]
 - !private ["Sm", "capitalized"]
-- !private ["Sm", "lowercased"]
+- !private ["Sm", "forEach"]
+- !private ["Sm", "init"]
+- !private ["Sm", "reversed"]
 - !private ["Sm", "subscript"]
+- !private ["5Chess9RankIndexO", "_1"]
+- !private ["5Chess9RankIndexO", "_8"]
 - !private ["5Chess9RankIndexO", "deinit"]
 - !private ["5Chess9RankIndexO", "init"]
-- !private ["SY", "black"]
-- !private ["SY", "init"]
+- !private ["5Chess9RankIndexO", "rawValue"]
+- ["5Chess7CLIViewC9Constants33_C5F2A148BD41271244C1C48DD6880578LLO10RankStringO", "=="]
+- ["5Chess7CLIViewC9Constants33_C5F2A148BD41271244C1C48DD6880578LLO10RankStringO", "RawValue"]
+- ["5Chess7CLIViewC9Constants33_C5F2A148BD41271244C1C48DD6880578LLO10RankStringO", "_1"]
+- ["5Chess7CLIViewC9Constants33_C5F2A148BD41271244C1C48DD6880578LLO10RankStringO", "_2"]
+- ["5Chess7CLIViewC9Constants33_C5F2A148BD41271244C1C48DD6880578LLO10RankStringO", "_3"]
+- ["5Chess7CLIViewC9Constants33_C5F2A148BD41271244C1C48DD6880578LLO10RankStringO", "_4"]
+- ["5Chess7CLIViewC9Constants33_C5F2A148BD41271244C1C48DD6880578LLO10RankStringO", "_5"]
+- ["5Chess7CLIViewC9Constants33_C5F2A148BD41271244C1C48DD6880578LLO10RankStringO", "_6"]
+- ["5Chess7CLIViewC9Constants33_C5F2A148BD41271244C1C48DD6880578LLO10RankStringO", "_7"]
+- ["5Chess7CLIViewC9Constants33_C5F2A148BD41271244C1C48DD6880578LLO10RankStringO", "_8"]
+- ["5Chess7CLIViewC9Constants33_C5F2A148BD41271244C1C48DD6880578LLO10RankStringO", "_Default_RawValue"]
+- ["5Chess7CLIViewC9Constants33_C5F2A148BD41271244C1C48DD6880578LLO10RankStringO", "_rawHashValue"]
+- ["5Chess7CLIViewC9Constants33_C5F2A148BD41271244C1C48DD6880578LLO10RankStringO", "deinit"]
+- ["5Chess7CLIViewC9Constants33_C5F2A148BD41271244C1C48DD6880578LLO10RankStringO", "hash"]
+- ["5Chess7CLIViewC9Constants33_C5F2A148BD41271244C1C48DD6880578LLO10RankStringO", "hashValue"]
+- ["5Chess7CLIViewC9Constants33_C5F2A148BD41271244C1C48DD6880578LLO10RankStringO", "init"]
+- ["5Chess7CLIViewC9Constants33_C5F2A148BD41271244C1C48DD6880578LLO10RankStringO", "rawValue"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- !private ["SY", "_1"]
+- !private ["SY", "_8"]
+- !private ["SY", "_A"]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_H"]
+- ["SY", "_rawHashValue"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "rawValue"]
+- !private ["s18ReversedCollectionV", "forEach"]
+- !private ["s10SIMDScalarP", "init"]
 - !private ["ST", "capitalized"]
-- !private ["ST", "lowercased"]
+- !private ["ST", "forEach"]
+- !private ["ST", "init"]
 - !private ["ST", "reversed"]
 - !private ["ST", "subscript"]
-- !private ["5Chess6SquareC", "init"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["5Chess11SquareStateV", "init"]
+- !private ["5Chess11SquareStateV", "piece"]
+- !private ["Sx", "init"]
 - !private ["SS", "capitalized"]
-- !private ["SS", "lowercased"]
-- !private ["SS", "subscript"]
 - !private ["Sy", "capitalized"]
-- !private ["Sy", "lowercased"]
-- !private ["Sy", "subscript"]
 - !private ["s16TextOutputStreamP", "capitalized"]
-- !private ["s16TextOutputStreamP", "lowercased"]
-- !private ["s16TextOutputStreamP", "subscript"]
 - !private ["s20TextOutputStreamableP", "asciiValue"]
 - !private ["s20TextOutputStreamableP", "capitalized"]
-- !private ["s20TextOutputStreamableP", "init"]
-- !private ["s20TextOutputStreamableP", "lowercased"]
-- !private ["s20TextOutputStreamableP", "subscript"]
+- !private ["s14_ArrayProtocolP", "forEach"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "reversed"]
 - !private ["s14_ArrayProtocolP", "subscript"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "asciiValue"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "capitalized"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "init"]
-- !private ["s30_CustomPlaygroundQuickLookableP", "lowercased"]
-- !private ["s30_CustomPlaygroundQuickLookableP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "forEach"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "reversed"]
 - !private ["s24_DestructorSafeContainerP", "subscript"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "asciiValue"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "capitalized"]
-- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
-- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "lowercased"]
-- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "capitalized"]
-- !private ["s34_ExpressibleByBuiltinStringLiteralP", "lowercased"]
-- !private ["s34_ExpressibleByBuiltinStringLiteralP", "subscript"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "asciiValue"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "capitalized"]
-- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
-- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "lowercased"]
-- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "subscript"]
 - !private ["s19_HasContiguousBytesP", "capitalized"]
-- !private ["s19_HasContiguousBytesP", "lowercased"]
+- !private ["s19_HasContiguousBytesP", "forEach"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "reversed"]
 - !private ["s19_HasContiguousBytesP", "subscript"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "capitalized"]
-- !private ["s35_HasCustomAnyHashableRepresentationP", "lowercased"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "forEach"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "reversed"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "capitalized"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "lowercased"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "subscript"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "capitalized"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "lowercased"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "subscript"]
 - !private ["s21_ObjectiveCBridgeableP", "capitalized"]
-- !private ["s21_ObjectiveCBridgeableP", "lowercased"]
+- !private ["s21_ObjectiveCBridgeableP", "forEach"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "reversed"]
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
 depends-nominal:
+- !private "s18AdditiveArithmeticP"
 - !private "Sa"
 - !private "s10ArraySliceV"
 - !private "SK"
-- !private "5Chess5BoardC"
+- !private "Sz"
+- !private "5Chess10BoardStateC"
 - "5Chess7CLIViewC"
 - !private "s7CVarArgP"
 - !private "SJ"
-- !private "SN"
 - !private "Sl"
-- !private "5Chess5ColorO"
 - !private "SL"
 - !private "10Foundation15ContiguousBytesP"
 - !private "s28CustomDebugStringConvertibleP"
@@ -326,19 +371,24 @@ depends-nominal:
 - !private "10Foundation12DataProtocolP"
 - !private "Se"
 - !private "SE"
-- !private "SQ"
+- "SQ"
 - !private "s25ExpressibleByArrayLiteralP"
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
 - !private "s32ExpressibleByStringInterpolationP"
 - !private "s26ExpressibleByStringLiteralP"
 - !private "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "5Chess9FileIndexO"
-- !private "SH"
+- "5Chess7CLIViewC9Constants33_C5F2A148BD41271244C1C48DD6880578LLO10FileStringO"
+- !private "s17FixedWidthIntegerP"
+- "SH"
 - "5Chess12InputHandlerP"
 - !private "5Chess20InputHandlerDelegateP"
+- !private "Si"
+- !private "s20LazySequenceProtocolP"
 - !private "s25LosslessStringConvertibleP"
 - !private "s10MirrorPathP"
-- !private "5Chess4MoveV"
+- !private "5Chess9MoveStateV"
 - !private "SM"
 - !private "10Foundation19MutableDataProtocolP"
 - !private "So8NSCodingP"
@@ -350,15 +400,21 @@ depends-nominal:
 - !private "So8NSObjectP"
 - !private "So14NSSecureCodingP"
 - !private "So8NSStringC"
+- !private "Sj"
 - "5Chess13OutputHandlerP"
-- !private "5Chess5PieceC"
+- !private "5Chess5PieceO"
 - !private "Sk"
-- !private "SX"
 - !private "Sm"
 - !private "5Chess9RankIndexO"
-- !private "SY"
+- "5Chess7CLIViewC9Constants33_C5F2A148BD41271244C1C48DD6880578LLO10RankStringO"
+- "SY"
+- !private "s18ReversedCollectionV"
+- !private "s10SIMDScalarP"
 - !private "ST"
-- !private "5Chess6SquareC"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "5Chess11SquareStateV"
+- !private "Sx"
 - !private "SS"
 - !private "Sy"
 - !private "s16TextOutputStreamP"
@@ -367,6 +423,7 @@ depends-nominal:
 - !private "s30_CustomPlaygroundQuickLookableP"
 - !private "s24_DestructorSafeContainerP"
 - !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
 - !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s19_HasContiguousBytesP"
@@ -396,4 +453,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "e84648dbca7988bc2e31d1cc44a33a22"
+interface-hash: "1017a459264318decaa17dca9b322b10"

@@ -1,0 +1,200 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PieceFactory"
+provides-nominal:
+- "5Chess12PieceFactoryC"
+provides-member:
+- ["5Chess12PieceFactoryC", ""]
+provides-dynamic-lookup:
+- "getPiece"
+depends-top-level:
+- !private "-"
+- !private "Constants"
+- "Int"
+- "Piece"
+- "PieceFactory"
+- !private "~="
+depends-member:
+- ["5Chess9ConstantsO", "Values"]
+- !private ["s28CustomDebugStringConvertibleP", "blackBishop"]
+- !private ["s28CustomDebugStringConvertibleP", "blackKing"]
+- !private ["s28CustomDebugStringConvertibleP", "blackKnight"]
+- !private ["s28CustomDebugStringConvertibleP", "blackPawn"]
+- !private ["s28CustomDebugStringConvertibleP", "blackQueen"]
+- !private ["s28CustomDebugStringConvertibleP", "blackRook"]
+- !private ["s28CustomDebugStringConvertibleP", "whiteBishop"]
+- !private ["s28CustomDebugStringConvertibleP", "whiteKing"]
+- !private ["s28CustomDebugStringConvertibleP", "whiteKnight"]
+- !private ["s28CustomDebugStringConvertibleP", "whitePawn"]
+- !private ["s28CustomDebugStringConvertibleP", "whiteQueen"]
+- !private ["s28CustomDebugStringConvertibleP", "whiteRook"]
+- !private ["s17CustomReflectableP", "blackBishop"]
+- !private ["s17CustomReflectableP", "blackKing"]
+- !private ["s17CustomReflectableP", "blackKnight"]
+- !private ["s17CustomReflectableP", "blackPawn"]
+- !private ["s17CustomReflectableP", "blackQueen"]
+- !private ["s17CustomReflectableP", "blackRook"]
+- !private ["s17CustomReflectableP", "whiteBishop"]
+- !private ["s17CustomReflectableP", "whiteKing"]
+- !private ["s17CustomReflectableP", "whiteKnight"]
+- !private ["s17CustomReflectableP", "whitePawn"]
+- !private ["s17CustomReflectableP", "whiteQueen"]
+- !private ["s17CustomReflectableP", "whiteRook"]
+- !private ["Se", "blackBishop"]
+- !private ["Se", "blackKing"]
+- !private ["Se", "blackKnight"]
+- !private ["Se", "blackPawn"]
+- !private ["Se", "blackQueen"]
+- !private ["Se", "blackRook"]
+- !private ["Se", "whiteBishop"]
+- !private ["Se", "whiteKing"]
+- !private ["Se", "whiteKnight"]
+- !private ["Se", "whitePawn"]
+- !private ["Se", "whiteQueen"]
+- !private ["Se", "whiteRook"]
+- !private ["SE", "blackBishop"]
+- !private ["SE", "blackKing"]
+- !private ["SE", "blackKnight"]
+- !private ["SE", "blackPawn"]
+- !private ["SE", "blackQueen"]
+- !private ["SE", "blackRook"]
+- !private ["SE", "whiteBishop"]
+- !private ["SE", "whiteKing"]
+- !private ["SE", "whiteKnight"]
+- !private ["SE", "whitePawn"]
+- !private ["SE", "whiteQueen"]
+- !private ["SE", "whiteRook"]
+- !private ["SQ", "blackBishop"]
+- !private ["SQ", "blackKing"]
+- !private ["SQ", "blackKnight"]
+- !private ["SQ", "blackPawn"]
+- !private ["SQ", "blackQueen"]
+- !private ["SQ", "blackRook"]
+- !private ["SQ", "whiteBishop"]
+- !private ["SQ", "whiteKing"]
+- !private ["SQ", "whiteKnight"]
+- !private ["SQ", "whitePawn"]
+- !private ["SQ", "whiteQueen"]
+- !private ["SQ", "whiteRook"]
+- !private ["s23ExpressibleByNilLiteralP", "blackBishop"]
+- !private ["s23ExpressibleByNilLiteralP", "blackKing"]
+- !private ["s23ExpressibleByNilLiteralP", "blackKnight"]
+- !private ["s23ExpressibleByNilLiteralP", "blackPawn"]
+- !private ["s23ExpressibleByNilLiteralP", "blackQueen"]
+- !private ["s23ExpressibleByNilLiteralP", "blackRook"]
+- !private ["s23ExpressibleByNilLiteralP", "whiteBishop"]
+- !private ["s23ExpressibleByNilLiteralP", "whiteKing"]
+- !private ["s23ExpressibleByNilLiteralP", "whiteKnight"]
+- !private ["s23ExpressibleByNilLiteralP", "whitePawn"]
+- !private ["s23ExpressibleByNilLiteralP", "whiteQueen"]
+- !private ["s23ExpressibleByNilLiteralP", "whiteRook"]
+- !private ["SH", "blackBishop"]
+- !private ["SH", "blackKing"]
+- !private ["SH", "blackKnight"]
+- !private ["SH", "blackPawn"]
+- !private ["SH", "blackQueen"]
+- !private ["SH", "blackRook"]
+- !private ["SH", "whiteBishop"]
+- !private ["SH", "whiteKing"]
+- !private ["SH", "whiteKnight"]
+- !private ["SH", "whitePawn"]
+- !private ["SH", "whiteQueen"]
+- !private ["SH", "whiteRook"]
+- !private ["Sq", "blackBishop"]
+- !private ["Sq", "blackKing"]
+- !private ["Sq", "blackKnight"]
+- !private ["Sq", "blackPawn"]
+- !private ["Sq", "blackQueen"]
+- !private ["Sq", "blackRook"]
+- !private ["Sq", "whiteBishop"]
+- !private ["Sq", "whiteKing"]
+- !private ["Sq", "whiteKnight"]
+- !private ["Sq", "whitePawn"]
+- !private ["Sq", "whiteQueen"]
+- !private ["Sq", "whiteRook"]
+- !private ["5Chess5PieceO", "blackBishop"]
+- !private ["5Chess5PieceO", "blackKing"]
+- !private ["5Chess5PieceO", "blackKnight"]
+- !private ["5Chess5PieceO", "blackPawn"]
+- !private ["5Chess5PieceO", "blackQueen"]
+- !private ["5Chess5PieceO", "blackRook"]
+- !private ["5Chess5PieceO", "whiteBishop"]
+- !private ["5Chess5PieceO", "whiteKing"]
+- !private ["5Chess5PieceO", "whiteKnight"]
+- !private ["5Chess5PieceO", "whitePawn"]
+- !private ["5Chess5PieceO", "whiteQueen"]
+- !private ["5Chess5PieceO", "whiteRook"]
+- !private ["5Chess12PieceFactoryC", "Constants"]
+- ["5Chess12PieceFactoryC", "Int"]
+- ["5Chess12PieceFactoryC", "Piece"]
+- ["5Chess12PieceFactoryC", "deinit"]
+- ["5Chess12PieceFactoryC", "getPiece"]
+- ["5Chess12PieceFactoryC", "init"]
+- !private ["SY", "blackBishop"]
+- !private ["SY", "blackKing"]
+- !private ["SY", "blackKnight"]
+- !private ["SY", "blackPawn"]
+- !private ["SY", "blackQueen"]
+- !private ["SY", "blackRook"]
+- !private ["SY", "whiteBishop"]
+- !private ["SY", "whiteKing"]
+- !private ["SY", "whiteKnight"]
+- !private ["SY", "whitePawn"]
+- !private ["SY", "whiteQueen"]
+- !private ["SY", "whiteRook"]
+- ["5Chess9ConstantsO6ValuesO", "bishop"]
+- ["5Chess9ConstantsO6ValuesO", "king"]
+- ["5Chess9ConstantsO6ValuesO", "knight"]
+- ["5Chess9ConstantsO6ValuesO", "pawn"]
+- ["5Chess9ConstantsO6ValuesO", "queen"]
+- ["5Chess9ConstantsO6ValuesO", "rook"]
+- !private ["s21_ObjectiveCBridgeableP", "blackBishop"]
+- !private ["s21_ObjectiveCBridgeableP", "blackKing"]
+- !private ["s21_ObjectiveCBridgeableP", "blackKnight"]
+- !private ["s21_ObjectiveCBridgeableP", "blackPawn"]
+- !private ["s21_ObjectiveCBridgeableP", "blackQueen"]
+- !private ["s21_ObjectiveCBridgeableP", "blackRook"]
+- !private ["s21_ObjectiveCBridgeableP", "whiteBishop"]
+- !private ["s21_ObjectiveCBridgeableP", "whiteKing"]
+- !private ["s21_ObjectiveCBridgeableP", "whiteKnight"]
+- !private ["s21_ObjectiveCBridgeableP", "whitePawn"]
+- !private ["s21_ObjectiveCBridgeableP", "whiteQueen"]
+- !private ["s21_ObjectiveCBridgeableP", "whiteRook"]
+depends-nominal:
+- "5Chess9ConstantsO"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "SH"
+- !private "Sq"
+- !private "5Chess5PieceO"
+- "5Chess12PieceFactoryC"
+- !private "SY"
+- "5Chess9ConstantsO6ValuesO"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "dba1918164430c8af7f46df682e23c57"

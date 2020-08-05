@@ -1,0 +1,87 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MovementDirectionHandler"
+provides-nominal:
+- "5Chess24MovementDirectionHandlerC"
+provides-member:
+- ["5Chess24MovementDirectionHandlerC", ""]
+- ["5Chess24MovementDirectionHandlerC", "isValid"]
+provides-dynamic-lookup:
+- "isRankDecremented"
+- "isRankIncremented"
+- "isValid"
+depends-top-level:
+- !private "<"
+- !private ">"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Color"
+- "MoveState"
+- "MovementDirection"
+- "MovementDirectionHandler"
+depends-member:
+- ["5Chess5ColorO", "black"]
+- ["5Chess5ColorO", "white"]
+- !private ["s28CustomDebugStringConvertibleP", "fromSquare"]
+- !private ["s28CustomDebugStringConvertibleP", "rankIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "toSquare"]
+- ["SQ", "any"]
+- ["SQ", "black"]
+- ["SQ", "forward"]
+- !private ["SQ", "fromSquare"]
+- !private ["SQ", "rankIndex"]
+- !private ["SQ", "rawValue"]
+- !private ["SQ", "toSquare"]
+- ["SQ", "white"]
+- ["SH", "any"]
+- ["SH", "black"]
+- ["SH", "forward"]
+- !private ["SH", "rawValue"]
+- ["SH", "white"]
+- !private ["5Chess9MoveStateV", "fromSquare"]
+- !private ["5Chess9MoveStateV", "toSquare"]
+- ["5Chess17MovementDirectionO", "any"]
+- ["5Chess17MovementDirectionO", "forward"]
+- ["5Chess24MovementDirectionHandlerC", "Bool"]
+- ["5Chess24MovementDirectionHandlerC", "Color"]
+- ["5Chess24MovementDirectionHandlerC", "MoveState"]
+- ["5Chess24MovementDirectionHandlerC", "MovementDirection"]
+- ["5Chess24MovementDirectionHandlerC", "deinit"]
+- ["5Chess24MovementDirectionHandlerC", "init"]
+- !private ["5Chess24MovementDirectionHandlerC", "isRankDecremented"]
+- !private ["5Chess24MovementDirectionHandlerC", "isRankIncremented"]
+- ["5Chess24MovementDirectionHandlerC", "isValid"]
+- !private ["5Chess9RankIndexO", "deinit"]
+- !private ["5Chess9RankIndexO", "rawValue"]
+- !private ["SY", "rawValue"]
+- !private ["5Chess11SquareStateV", "rankIndex"]
+depends-nominal:
+- "5Chess5ColorO"
+- !private "s28CustomDebugStringConvertibleP"
+- "SQ"
+- "SH"
+- !private "5Chess9MoveStateV"
+- "5Chess17MovementDirectionO"
+- "5Chess24MovementDirectionHandlerC"
+- !private "5Chess9RankIndexO"
+- !private "SY"
+- !private "5Chess11SquareStateV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "b9a354eb2257514ee30d2397fbc627de"
